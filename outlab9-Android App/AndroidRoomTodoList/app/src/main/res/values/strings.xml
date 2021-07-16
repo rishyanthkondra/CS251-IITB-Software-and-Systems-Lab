@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidRoomTodoList</string>
+    <string name="title_activity_todo_note">TodoNoteActivity</string>
+    <string name="sub_activity">SubActivity</string>
+    <string name="day_view">Dayview</string>
+    <string name="subsub_activity">SubSubTaskactivity</string>
+    <string name="Open">AndroidRoomTodoList</string>
+    <string name="Close">AndroidRoomTodoList</string>
+    <string name="Open1">Dayview</string>
+    <string name="Close1">Dayview</string>
+    <string name="Open2">SubActivity</string>
+    <string name="Close2">SubActivity</string>
+    <string name="Open3">SubSubTaskactivity</string>
+    <string name="Close3">SubSubTaskactivity</string>
+</resources>

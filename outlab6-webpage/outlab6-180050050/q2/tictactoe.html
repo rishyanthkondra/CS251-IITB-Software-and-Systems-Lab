@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Tic-Tac-Toe
+	</title>
+	<link rel="stylesheet" type="text/css" href="tictactoe.css">
+	<script type="text/javascript">
+		var playerimgs=["autobot0.png","decep0.png"];
+		var chance = 0;
+		var timeleft = 5;
+		var B = [-1,-1,-1,-1,-1,-1,-1,-1,-1];
+		var ingame = false;
+		var scores = [0,0];
+		var gameno = 1;
+		whilecounting = false;
+		var gr = "1";
+		var temp = [];
+		var wins = [[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,9],[3,5,7]];
+		//var plalced = {false,false,false,false,false,false,false,false,false}
+		function Setplayer(idi,x){
+			if(!ingame){
+			playerimgs[x] = document.getElementById(idi).src;
+			if(x==0){
+			document.getElementById("Auto").src = playerimgs[x];}
+			else{
+			document.getElementById("Decep").src = playerimgs[x];}
+			}
+		}
+		function PlayBlock(idi) {
+			// body...
+			if(chance==0){ingame=true};
+			image = document.getElementById(idi);
+			if (image.getAttribute('src') === 'def.png' && ingame){
+			 if(idi == "b1"){
+				B[0] = chance%2;
+			}else if(idi == "b2"){
+				B[1] = chance%2;
+			}else if(idi == "b3"){
+				B[2] = chance%2;
+			}else if(idi == "b4"){
+				B[3] = chance%2;
+			}else if(idi == "b5"){
+				B[4] = chance%2;
+			}else if(idi == "b6"){
+				B[5] = chance%2;
+			}else if(idi == "b7"){
+				B[6] = chance%2;
+			}else if(idi == "b8"){
+				B[7] = chance%2;
+			}else if(idi == "b9"){
+				B[8] = chance%2;
+			}
+			 image.src = playerimgs[chance%2];
+			validateBoard(chance%2);	
+			if(chance == 9){
+				gr = "T";
+				ingame = false;
+				timeleft = 5;
+				var Timer = setInterval(function(){
+				if(whilecounting || timeleft <= 0){
+					document.getElementById("forpop").style.color = "black";
+					clearInterval(Timer);
+					NewGame();
+				}else {
+					let txt = "";
+					document.getElementById("forpop").style.color = "red";
+					txt = "Match tied! Starting a newgame in ";
+					document.getElementById("forpop").textContent =
+					txt + timeleft.toString() + " seconds...";
+					timeleft--;
+				}
+			},1000);
+			}}else{
+				whilecounting = true;
+			}	
+		}
+		function getAllIndexes(arr, val) {
+    	let indexes = [], i = -1;
+   		while ((i = arr.indexOf(val, i+1)) !== -1){
+        	indexes.push(i+1);
+    	}
+    	return indexes;
+		}
+		function hasSubArray(master, sub) {
+ 	    return sub.every((i => v => i = master.indexOf(v, i) + 1)(0));}
+		function INtemp(x){
+			return hasSubArray(temp,x);
+		}
+		function validateBoard(x){
+			temp = getAllIndexes(B,x);
+			console.log(temp);
+			let temp2 = wins.filter(INtemp);
+			if(temp2.length == 1){
+			if(gameno%2 == 1){
+			scores[x] += 4;
+			gr = (x+1).toString();}
+			else{
+				let alpha = (x+1)%2;
+				scores[alpha]+=4;
+				gr = (alpha+1).toString();
+			}
+			ingame = false;
+			timeleft = 5;
+			var Timer = setInterval(function(){
+				if(whilecounting || timeleft <= 0){
+					document.getElementById("forpop").style.color = "black";
+					clearInterval(Timer);
+					NewGame();
+					timeleft = 0;
+				}else {
+					let txt = "";
+					document.getElementById("forpop").style.color = "red";
+					txt = "Player "+gr+" won! Starting a newgame in ";
+					document.getElementById("forpop").textContent =
+					txt + timeleft.toString() + " seconds...";
+					timeleft--;
+				}
+			},1000);
+			chance--;
+				}
+			else{
+				chance++;
+			}
+		}
+		function NewGame() {
+			// body...
+			var table = document.getElementById("HERE");
+			var row = table.insertRow(-1);
+			var cell1 = row.insertCell(0);
+			var cell2 = row.insertCell(1);
+			var cell3 = row.insertCell(2);
+			var cell4 = row.insertCell(3);
+			cell1.innerHTML = gameno;
+			cell2.innerHTML = gr;
+			cell3.innerHTML = scores[0];
+			cell4.innerHTML = scores[1];
+			gameoff = true;
+			gameno++;
+			board = document.getElementsByClassName("onboard");
+			for(let i=0;i<9;i++){
+				board[i].src="def.png";
+				B[i] = -1;
+			}
+			timeleft = 5;
+			ingame = true;
+			chance = 0;
+			whilecounting = false;
+		}
+	</script>
+</head>
+<body >
+	<h1 align="center">TIC-TAC-TOE<hr></h1>
+	<h3 align="center" style="color: white">Inspired by Transformers...</h3>
+	<table style="width:100%">
+		<tr>
+			<td class="dropdown">
+			<img class="nonboard" id="Auto" src="autobot0.png">
+			<div class="dropdown-content">
+				<div class="display-item" onclick="Setplayer('a0',0)"><img class="intd" id="a0" src="autobot0.png"></div>
+				<div class="display-item" onclick="Setplayer('a1',0)"><img class="intd" id="a1" src="autobot1.png"></div>
+				<div class="display-item" onclick="Setplayer('a2',0)"><img class="intd" id="a2" src="autobot2.png"></div>
+				<div class="display-item" onclick="Setplayer('a3',0)"><img  class="intd"id="a3" src="autobot3.png"></div>
+				<div class="display-item" onclick="Setplayer('a4',0)"><img  class="intd"id="a4" src="autobot4.png"></div>
+				<div class="display-item" onclick="Setplayer('a5',0)"><img  class="intd"id="a5" src="autobot5.png"></div>
+			</div></td>
+			<td align="center" style="color: red">SELECT YOUR FAVOURUTE TRANSFORMERS HERE<hr></td>
+			<td align="left" class="dropdown">
+			<img class="nonboard" id="Decep" src="decep0.png">
+			<div class="dropdown-content">
+				<div class="display-item" onclick="Setplayer('d0',1)"><img class="intd" id="d0" src="decep0.png"></div>
+				<div class="display-item" onclick="Setplayer('d1',1)"><img class="intd" id="d1" src="decep1.png"></div>
+				<div class="display-item" onclick="Setplayer('d2',1)"><img class="intd" id="d2" src="decep2.png"></div>
+				<div class="display-item" onclick="Setplayer('d3',1)"><img  class="intd"id="d3" src="decep3.png"></div>
+				<div class="display-item" onclick="Setplayer('d4',1)"><img  class="intd"id="d4" src="decep4.png"></div>
+				<div class="display-item" onclick="Setplayer('d5',1)"><img  class="intd"id="d5" src="decep5.png"></div>
+			</div></td>
+		</tr>
+	</table>
+	<div class="grid-container">
+		<div class="grid-item" onclick="PlayBlock('b1')"><img class="onboard" id="b1" src="def.png"></div>
+		<div class="grid-item" onclick="PlayBlock('b2')"><img class="onboard" id="b2" src="def.png"></div>
+		<div class="grid-item" onclick="PlayBlock('b3')"><img class="onboard" id="b3" src="def.png"></div>
+		<div class="grid-item" onclick="PlayBlock('b4')"><img  class="onboard"id="b4" src="def.png"></div>
+		<div class="grid-item" onclick="PlayBlock('b5')"><img class="onboard" id="b5" src="def.png"></div>
+		<div class="grid-item" onclick="PlayBlock('b6')"><img class="onboard" id="b6" src="def.png"></div>
+		<div class="grid-item" onclick="PlayBlock('b7')"><img class="onboard" id="b7" src="def.png"></div>
+		<div class="grid-item" onclick="PlayBlock('b8')"><img class="onboard" id="b8" src="def.png"></div>
+		<div class="grid-item" onclick="PlayBlock('b9')"><img class="onboard" id="b9" src="def.png"></div>
+	</div>
+	<p align="center" id="forpop" style="color: black;font-size: 30px">DEAFAULT TEXT<p>
+	<div style="
+		background-image:url(Safari.png);
+		background-repeat: no-repeat; 
+		background-attachment: fixed;
+		background-size: cover;
+		width:100%;min-height: 300px; height:auto;">
+	<h2 align="center" style="font-size : 40px;color: white">
+		TABLE 1 : GAMES SUMMARY	</h2>
+	<table id="HERE">
+  		<tr>
+    		<th>S.No.</th>
+    		<th>Result</th>
+			<th>Player1 score</th>
+			<th>Player2 score</th>
+  		</tr> 
+	</table>
+</div>
+</body>
+</html>

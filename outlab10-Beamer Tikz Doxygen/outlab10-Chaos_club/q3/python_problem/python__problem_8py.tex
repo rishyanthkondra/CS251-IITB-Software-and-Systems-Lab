@@ -1,0 +1,101 @@
+\hypertarget{python__problem_8py}{}\section{python\+\_\+problem.\+py File Reference}
+\label{python__problem_8py}\index{python\+\_\+problem.\+py@{python\+\_\+problem.\+py}}
+
+
+File Documentation.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{python__problem_8py_a3e14eabd673d5450fc9ad0f55944ddbc}{python\+\_\+problem.\+make} (filename)
+\begin{DoxyCompactList}\small\item\em Given a file as an argument, returns a list which stores all the information in the file as a list of integers. \end{DoxyCompactList}\item 
+def \hyperlink{python__problem_8py_aa5fcea23fc1ba14c5e21dfeb25a73376}{python\+\_\+problem.\+fun1} (l)
+\begin{DoxyCompactList}\small\item\em This function takes a list of integers and returns a sorted list in increasing order. \end{DoxyCompactList}\item 
+def \hyperlink{python__problem_8py_aeb8631d95a0e5c21716de1efa0a93f88}{python\+\_\+problem.\+fun2} (l, x)
+\begin{DoxyCompactList}\small\item\em We are performing Binary search on a sorted list. \end{DoxyCompactList}\item 
+def \hyperlink{python__problem_8py_aecd5932c95cd5087a63f7a9cdd9a9261}{python\+\_\+problem.\+fun3} (L)
+\begin{DoxyCompactList}\small\item\em This function calculates the determinant of the matrix given. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{python__problem_8py_a57cd50d64eeaf609bf3db7738032930d}\label{python__problem_8py_a57cd50d64eeaf609bf3db7738032930d}} 
+def {\bfseries python\+\_\+problem.\+L} = make(\char`\"{}data\char`\"{})
+\item 
+\mbox{\Hypertarget{python__problem_8py_a7e9d5a08cba97a3d06f7ae7352de605c}\label{python__problem_8py_a7e9d5a08cba97a3d06f7ae7352de605c}} 
+def {\bfseries python\+\_\+problem.\+ans} = fun2(L, 48)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+File Documentation. 
+
+This code is to manupulate lists in python
+
+The programs here uses basic python to find determinant of a matrix,to read a file,for binary search on a sorted list, 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{python__problem_8py_file_aa5fcea23fc1ba14c5e21dfeb25a73376}\label{python__problem_8py_file_aa5fcea23fc1ba14c5e21dfeb25a73376}} 
+\index{python\+\_\+problem.\+py@{python\+\_\+problem.\+py}!fun1@{fun1}}
+\index{fun1@{fun1}!python\+\_\+problem.\+py@{python\+\_\+problem.\+py}}
+\subsubsection{\texorpdfstring{fun1()}{fun1()}}
+{\footnotesize\ttfamily def python\+\_\+problem.\+fun1 (\begin{DoxyParamCaption}\item[{}]{l }\end{DoxyParamCaption})}
+
+
+
+This function takes a list of integers and returns a sorted list in increasing order. 
+
+The sorting is done based on bubble sort. We run variable \textquotesingle{}i\textquotesingle{} from 0 to n-\/1 and for each i ,we also run \textquotesingle{}j\textquotesingle{} from 0 to n-\/i-\/1 and find maximum of elements from 0 to n-\/i-\/1 and bring that element to position \textquotesingle{}n-\/i-\/1\textquotesingle{}.Such that zeroeth maximum comes to position n-\/1,next maximum gets to \textquotesingle{}n-\/2\textquotesingle{} and so on.\+As a result the array or list is now increasingly sorted. 
+\begin{DoxyParams}{Parameters}
+{\em l} & -\/$>$ list to be sorted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sorted list in increasing order 
+\end{DoxyReturn}
+\mbox{\Hypertarget{python__problem_8py_file_aeb8631d95a0e5c21716de1efa0a93f88}\label{python__problem_8py_file_aeb8631d95a0e5c21716de1efa0a93f88}} 
+\index{python\+\_\+problem.\+py@{python\+\_\+problem.\+py}!fun2@{fun2}}
+\index{fun2@{fun2}!python\+\_\+problem.\+py@{python\+\_\+problem.\+py}}
+\subsubsection{\texorpdfstring{fun2()}{fun2()}}
+{\footnotesize\ttfamily def python\+\_\+problem.\+fun2 (\begin{DoxyParamCaption}\item[{}]{l,  }\item[{}]{x }\end{DoxyParamCaption})}
+
+
+
+We are performing Binary search on a sorted list. 
+
+Checks if an integer x is present in a given list of integers and returns the number of probes made to check if presentbut if not present then returns -\/1 We consider to pointers e and s wrt the end and start f the list l respectively. Now mainting the condition that the pointere is to the right of s,we find the middle element of the two pointers of the list and compare the middle element of the sublist to the element \textquotesingle{}x\textquotesingle{};if it is greater than x then s becomes the m+1 or if it is less than x then e becomes m-\/1 until s$<$=e or when middle element equals x.\+Then if the x is present in the list number of while loops made is returned.\+or else -\/1 is returned. 
+\begin{DoxyParams}{Parameters}
+{\em l,x} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+number of iterations made to find the element in the list if present else -\/1 
+\end{DoxyReturn}
+\mbox{\Hypertarget{python__problem_8py_file_aecd5932c95cd5087a63f7a9cdd9a9261}\label{python__problem_8py_file_aecd5932c95cd5087a63f7a9cdd9a9261}} 
+\index{python\+\_\+problem.\+py@{python\+\_\+problem.\+py}!fun3@{fun3}}
+\index{fun3@{fun3}!python\+\_\+problem.\+py@{python\+\_\+problem.\+py}}
+\subsubsection{\texorpdfstring{fun3()}{fun3()}}
+{\footnotesize\ttfamily def python\+\_\+problem.\+fun3 (\begin{DoxyParamCaption}\item[{}]{L }\end{DoxyParamCaption})}
+
+
+
+This function calculates the determinant of the matrix given. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em L-\/$>$} & An n$\ast$n matrix \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+d -\/$>$ the determinant of a matrix L 
+\end{DoxyReturn}
+\mbox{\Hypertarget{python__problem_8py_file_a3e14eabd673d5450fc9ad0f55944ddbc}\label{python__problem_8py_file_a3e14eabd673d5450fc9ad0f55944ddbc}} 
+\index{python\+\_\+problem.\+py@{python\+\_\+problem.\+py}!make@{make}}
+\index{make@{make}!python\+\_\+problem.\+py@{python\+\_\+problem.\+py}}
+\subsubsection{\texorpdfstring{make()}{make()}}
+{\footnotesize\ttfamily def python\+\_\+problem.\+make (\begin{DoxyParamCaption}\item[{}]{filename }\end{DoxyParamCaption})}
+
+
+
+Given a file as an argument, returns a list which stores all the information in the file as a list of integers. 
+

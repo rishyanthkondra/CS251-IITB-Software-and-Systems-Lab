@@ -1,0 +1,78 @@
+\hypertarget{classLinkList}{}\section{Link\+List$<$ T $>$ Class Template Reference}
+\label{classLinkList}\index{Link\+List$<$ T $>$@{Link\+List$<$ T $>$}}
+
+
+We define a class called \hyperlink{classLinkList}{Link\+List} and define some functions using the class node.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classLinkList_a38b2e77462f2733bc9254c3fd86b453f}{insert\+Front} (T item)
+\item 
+void \hyperlink{classLinkList_af0f013b563ae0abaec5c22037ec31e28}{insert\+Rear} (T item)
+\item 
+void \hyperlink{classLinkList_ae4d698669105fff350b578de53e7e389}{remove\+Front} ()
+\item 
+void \hyperlink{classLinkList_af7894809851c2478fdb3272bd0584b6c}{remove\+Rear} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classLinkList_a62eb2e6bd32c8bdaa9bd26b5cef6c2c8}{main} (String a\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em The driving function to create a double ended queue. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+We define a class called \hyperlink{classLinkList}{Link\+List} and define some functions using the class node. 
+
+Here we create queue data structure,where adding and removing elements is possible at both ends using linkedlist. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classLinkList_a38b2e77462f2733bc9254c3fd86b453f}\label{classLinkList_a38b2e77462f2733bc9254c3fd86b453f}} 
+\index{Link\+List@{Link\+List}!insert\+Front@{insert\+Front}}
+\index{insert\+Front@{insert\+Front}!Link\+List@{Link\+List}}
+\subsubsection{\texorpdfstring{insert\+Front()}{insertFront()}}
+{\footnotesize\ttfamily void \hyperlink{classLinkList}{Link\+List}$<$ T $>$.insert\+Front (\begin{DoxyParamCaption}\item[{T}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+To add an element at the beginning of the queue.\+We create a node with the \textquotesingle{}item\textquotesingle{} input as its value and as the new node is nd and is at the front so its previous node is set to null and the next node is the front node previously,if the queue not empty,else it is also set to null. if previously queue was not empty then the preivous front node\textquotesingle{}s previous node is set to the present front node. \mbox{\Hypertarget{classLinkList_af0f013b563ae0abaec5c22037ec31e28}\label{classLinkList_af0f013b563ae0abaec5c22037ec31e28}} 
+\index{Link\+List@{Link\+List}!insert\+Rear@{insert\+Rear}}
+\index{insert\+Rear@{insert\+Rear}!Link\+List@{Link\+List}}
+\subsubsection{\texorpdfstring{insert\+Rear()}{insertRear()}}
+{\footnotesize\ttfamily void \hyperlink{classLinkList}{Link\+List}$<$ T $>$.insert\+Rear (\begin{DoxyParamCaption}\item[{T}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+To insert an element at the end of the queue.\+We create a new node nd with item as its value and set its previous node to the previous end node if queue was not empty else null and the next node to null. And the previous rear node would have its next node as nd. /$\ast$ 
+\begin{DoxyParams}{Parameters}
+{\em item} & -\/$>$ element to insert at the end . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classLinkList_a62eb2e6bd32c8bdaa9bd26b5cef6c2c8}\label{classLinkList_a62eb2e6bd32c8bdaa9bd26b5cef6c2c8}} 
+\index{Link\+List@{Link\+List}!main@{main}}
+\index{main@{main}!Link\+List@{Link\+List}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void \hyperlink{classLinkList}{Link\+List}$<$ T $>$.main (\begin{DoxyParamCaption}\item[{String}]{a\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+The driving function to create a double ended queue. 
+
+We define deque as linklist variable of integers. \mbox{\Hypertarget{classLinkList_ae4d698669105fff350b578de53e7e389}\label{classLinkList_ae4d698669105fff350b578de53e7e389}} 
+\index{Link\+List@{Link\+List}!remove\+Front@{remove\+Front}}
+\index{remove\+Front@{remove\+Front}!Link\+List@{Link\+List}}
+\subsubsection{\texorpdfstring{remove\+Front()}{removeFront()}}
+{\footnotesize\ttfamily void \hyperlink{classLinkList}{Link\+List}$<$ T $>$.remove\+Front (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+To remove the item from beginning of the queue If queue was not empty then remove the node at front,else unable to remove message is printed. \mbox{\Hypertarget{classLinkList_af7894809851c2478fdb3272bd0584b6c}\label{classLinkList_af7894809851c2478fdb3272bd0584b6c}} 
+\index{Link\+List@{Link\+List}!remove\+Rear@{remove\+Rear}}
+\index{remove\+Rear@{remove\+Rear}!Link\+List@{Link\+List}}
+\subsubsection{\texorpdfstring{remove\+Rear()}{removeRear()}}
+{\footnotesize\ttfamily void \hyperlink{classLinkList}{Link\+List}$<$ T $>$.remove\+Rear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+To remove the last element of the double ended queue If queue was not empty then remove node at the end ,else print unable to remove message. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{LinkList_8java}{Link\+List.\+java}\end{DoxyCompactItemize}

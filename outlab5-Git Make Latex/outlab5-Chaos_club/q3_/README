@@ -1,0 +1,74 @@
+#This command for graph 
+#git log --all --graph 
+
+* commit 74ca1caf531c617a59c8443b9e9cb0440f2fb8eb
+| Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+| Date:   Tue Sep 24 23:46:23 2019 +0530
+| 
+|     Added A3 in master
+| 
+* commit 547344d6f723e2534dadcf9d6a55516a1646115b
+| Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+| Date:   Tue Sep 24 23:46:23 2019 +0530
+| 
+|     Added A2 in master
+| 
+* commit 7d1d0701a602c4f9449153e278a004fc13ad52ce
+| Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+| Date:   Tue Sep 24 23:46:23 2019 +0530
+| 
+|     Added A1 in master
+| 
+* commit 483396d9c36894c83f42e87222a018bc9bb81123
+| Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+| Date:   Tue Sep 24 23:46:23 2019 +0530
+| 
+|     Wrote to demo.txt in feature1
+|   
+| * commit 8c425f994d4c13519e1fda1732340e1bd3e59aef
+| | Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+| | Date:   Tue Sep 24 23:46:23 2019 +0530
+| | 
+| |     Added O4 in master
+| | 
+| * commit 503908dba528808d3c3ae34004a139a597ceeb80
+| | Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+| | Date:   Tue Sep 24 23:46:23 2019 +0530
+| | 
+| |     Added O3 in master
+| | 
+| * commit 536917a0cc45f93b296a7abf79b91f17c369af69
+| | Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+| | Date:   Tue Sep 24 23:46:23 2019 +0530
+| | 
+| |     Added O2 in master
+| | 
+| * commit 3d7c17f097c7219a2faec975d5df6d3046bcaef7
+|/  Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+|   Date:   Tue Sep 24 23:46:23 2019 +0530
+|   
+|       Wrote to demo.txt in master
+| 
+* commit 7e52054a776520b478c45c1c37db80f075ac8129
+| Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+| Date:   Tue Sep 24 23:46:23 2019 +0530
+| 
+|     Added demo.txt to master
+| 
+* commit 8de80b54192c9457b3d9d9f3e77e52aedd64dc84
+  Author: AbhinavGoudBingi <bingiabhinavgoud@gmail.com>
+  Date:   Tue Sep 24 23:46:23 2019 +0530
+  
+      Added O1.txt to master
+command used for rebase
+git rebase master
+git rebase --skip(Command used to skip)
+git checkout master
+git merge feature1
+
+YES , we got conflicts because we edited demo.txt in both master and feature and we didn't make changes to that in feature
+
+There are no merge commits in the log because merge commits are just commits with more than one parent but we didn't merge the branch directly while rebasing recursively applies the existng commits to the parent .
+
+
+

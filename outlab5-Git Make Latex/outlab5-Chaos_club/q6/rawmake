@@ -1,0 +1,39 @@
+helloworld: helloworld.cpp
+	g++ -o helloworld helloworld.cpp
+
+usespthread: usespthread.cpp
+	gcc -pthread -o usespthread usespthread.cpp
+
+libMyEngineStatic.a: myengine/myengine.cpp
+	g++ -c -o out.o $<
+	ar rcs libMyEngineStatic.a out.o
+
+libMyEngineDynamic.so: myengine/myengine.cpp
+	gcc -fpic -shared $^ -o libMyEngineDynamic.so
+
+.PHONY: installstatic
+installstatic:  libMyEngineStatic.a myengine/myengine.hpp
+	sudo cp -p libMyEngineStatic.a /usr/local/lib/
+	sudo cp -p ./myengine/myengine.hpp /usr/local/include/
+	ldconfig -n -v /usr/local/lib/
+
+.PHONY: installdynamic
+installdynamic: libMyEngineDynamic.so myengine/myengine.hpp
+	sudo cp -p libMyEngineDynamic.so /usr/local/lib/
+	sudo cp -p ./myengine/myengine.hpp /usr/local/include/
+	ldconfig -n -v /usr/local/lib/
+
+mygamestatic: mygame/mygame.cpp
+	g++ -w -c $<
+	g++ -o mygamestatic -L /usr/local/lib/ mygame.o -lMyEngineStatic 
+
+mygamedynamic: ./mygame/mygame.cpp
+	g++ -w -c $< 
+	g++ -o mygamedynamic mygame.o /usr/local/lib/libMyEngineDynamic.so 
+
+.PHONY: clean
+clean:
+	rm -f *.o *.a *.gch *.so helloworld usespthread mygamestatic mygamedynamic
+	sudo rm /usr/local/lib/libMyEngineStatic.a
+	sudo rm /usr/local/lib/libMyEngineDynamic.so
+	sudo rm /usr/local/include/myengine.hpp
