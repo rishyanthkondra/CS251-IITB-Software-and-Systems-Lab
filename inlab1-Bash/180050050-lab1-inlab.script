@@ -1,0 +1,1150 @@
+Script started on 2019-08-02 21:43:35+0530
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ mkdir -p la[K[Kassignment1_[K/lab1
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/rishyanth
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ls
+180050050-lab1-inlab.script  [0m[01;34mDesktop[0m           [01;34mMusic[0m       [01;34mTemplates[0m
+[01;32ma.out[0m                        [01;34mDocuments[0m         [01;34mPictures[0m    TEST
+[01;34massignment1[0m                  [01;34mDownloads[0m         [01;34mPublic[0m      tutor
+[01;34mData[0m                         examples.desktop  sample.cpp  [01;34mVideos[0m
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ls[K[Kcd assignment1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls
+[0m[01;34mlab1[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ touch asi[Ksignment1_1.odt[K[K[Ktxt assignment 1_2.doc assignment1_3.odt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd lab1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ touch a[Klab1_1.txt lan[Kb1_2.doc l ab1_3.odt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ ls
+lab1_1.txt  lab1_2.doc  lab1_3.odt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cd -
+/home/rishyanth/assignment1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls
+assignment1_1.txt  assignment1_2.doc  assignment1_3.odt  [0m[01;34mlab1[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ for f [K[Kfilr[Ke in assih\g[K[K[Kgnments[K1_1.txt assi gnment1_2.doc assignment1_3.odt;
+> do
+> cat /h[KHome/Data/iit.txt > '[K"$f"
+> done
+bash: : No such file or directory
+bash: : No such file or directory
+bash: : No such file or directory
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ pwd
+/home/rishyanth/assignment1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ pwdfor file in assignment1_1.txt assiggnment1_2.doc assignment1_3.odt; do cat /Home/Data/iit.txt > "$f"; done[C[1P[1@h[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: : No such file or directory
+bash: : No such file or directory
+bash: : No such file or directory
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ for file in assignment1_1.txt assiggnment1_2.doc assignment1_3.odt; do cat /home/Data/iit.txt > "$f"; done[C[1@i[1@l[1@e[C[C[C[C[C[C[C
+cat: /home/Data/iit.txt: No such file or directory
+cat: /home/Data/iit.txt: No such file or directory
+cat: /home/Data/iit.txt: No such file or directory
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ for file in assignment1_1.txt assiggnment1_2.doc assignment1_3.odt; do cat /home/Data/iit.txt > "$file"; done[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cat: home/Data/iit.txt: No such file or directory
+cat: home/Data/iit.txt: No such file or directory
+cat: home/Data/iit.txt: No such file or directory
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cfor file in assignment1_1.txt assiggnment1_2.doc assignment1_3.odt; do cat home/Data/iit.txt > "$file"; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@/[1@r[1@/[C[C[C[C[C[C[C[9@ishyanth/[1@D[1@a[3@ta/[1@i[1@it.txt > "$file"; ddone[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ for file in assignment1_1.txt assiggnment1_2.doc assignment1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; ddone[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Phome/Data/iit.txt > "$file"; done
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/home/rishyanth/Data/iit.txt > "$file"; ddone[A[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ [K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd lab1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cd lab1for file in assignment1_1.txt  assignment1_2.doc assignment1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$fille"; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file";[1P done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; [1Pdone[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; d[1Pone[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; do[1Pne[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; don[1Pe[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; donee[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_2.doc lab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done[K[A[C[C[C[C[C[C[C[C[C1_2.doc lab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done [K[A[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1@l[1@a[1@b[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt l[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt la[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt lab[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt lab1[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt lab1_[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt lab1_2[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt lab1_2.[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt lab1_2.d[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt lab1_2.do[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C1_1.txt lab1_2.doc[1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C1_1.txt lab1_2.doc [1P[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C 1_1.txt lab1_2.doc[1@ [A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cl1_1.txt lab1_2.do[1@c[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ca1_1.txt lab1_2.d[1@o[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cb1_1.txt lab1_2.[1@d[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd lab1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor file in lab1_1.txt lab1_2..doc lab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ ls *.txt
+lab1_1.txt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ ls *.txt[K[K[Kdoc
+lab1_2.doc
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ ls *.doc[K[K[Kodt
+lab1_3.odt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ pwd
+/home/rishyanth/assignment1/lab1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cd ..
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cat commands.txt >
+bash: syntax error near unexpected token `newline'
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cat commands.txt >[C[K[1@>[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C
+ls^C
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cat > commands.txt 
+ls
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ chmo[K[K[K[Kman chmod
+[?1049h[22;0;0t[?1h=CHMOD(1)                         User Commands                        CHMOD(1)[m
+[m
+[1mNAME[0m[m
+       chmod - change file mode bits[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mchmod[0m [[4mOPTION[24m]... [4mMODE[24m[[4m,MODE[24m]... [4mFILE[24m...[m
+       [1mchmod[0m [[4mOPTION[24m]... [4mOCTAL-MODE[24m [4mFILE[24m...[m
+       [1mchmod[0m [[4mOPTION[24m]... [4m--reference=RFILE[24m [4mFILE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       This manual page documents the GNU version of [1mchmod[0m.  [1mchmod[0m changes the[m
+       file mode bits of each given file  according  to  [4mmode[24m,  which  can  be[m
+       either a symbolic representation of changes to make, or an octal number[m
+       representing the bit pattern for the new mode bits.[m
+[m
+       The format of a symbolic mode is  [[1mugoa[0m...][[[1m-+=[0m][[4mperms[24m...]...],  where[m
+       [4mperms[24m  is  either zero or more letters from the set [1mrwxXst[0m, or a single[m
+       letter from the set [1mugo[0m.  Multiple symbolic modes can be  given,  sepa‐[m
+       rated by commas.[m
+[m
+       A  combination  of the letters [1mugoa[0m controls which users' access to the[m
+       file will be changed: the user who owns it  ([1mu[0m),  other  users  in  the[m
+[7m Manual page chmod(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       file's group ([1mg[0m), other users not in the file's group ([1mo[0m), or all users[m
+[7m Manual page chmod(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ([1ma[0m).  If none of these are given, the effect is as if ([1ma[0m)  were  given,[m
+[7m Manual page chmod(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       but bits that are set in the umask are not affected.[m
+[7m Manual page chmod(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  operator  [1m+[0m  causes the selected file mode bits to be added to the[m
+[7m Manual page chmod(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       existing file mode bits of each file; [1m-[0m causes them to be removed;  and[m
+[7m Manual page chmod(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m=[0m  causes  them  to  be added and causes unmentioned bits to be removed[m
+[7m Manual page chmod(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       except that a directory's unmentioned set user and group  ID  bits  are[m
+[7m Manual page chmod(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       not affected.[m
+[7m Manual page chmod(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  letters  [1mrwxXst[0m select file mode bits for the affected users: read[m
+[7m Manual page chmod(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ([1mr[0m), write ([1mw[0m), execute (or search for directories) ([1mx[0m), execute/search[m
+[7m Manual page chmod(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       only  if  the file is a directory or already has execute permission for[m
+[7m Manual page chmod(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       some user ([1mX[0m), set user or group ID on execution ([1ms[0m), restricted  dele‐[m
+[7m Manual page chmod(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tion  flag or sticky bit ([1mt[0m).  Instead of one or more of these letters,[m
+[7m Manual page chmod(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       you can specify exactly one of the letters [1mugo[0m: the permissions granted[m
+[7m Manual page chmod(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       to  the  user  who  owns the file ([1mu[0m), the permissions granted to other[m
+[7m Manual page chmod(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       users who are members of the file's  group  ([1mg[0m),  and  the  permissions[m
+[7m Manual page chmod(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       granted  to  users  that are in neither of the two preceding categories[m
+[7m Manual page chmod(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ([1mo[0m).[m
+[7m Manual page chmod(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A numeric mode is from one to  four  octal  digits  (0-7),  derived  by[m
+[7m Manual page chmod(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       adding up the bits with values 4, 2, and 1.  Omitted digits are assumed[m
+[7m Manual page chmod(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       to be leading zeros.  The first digit selects the set user ID  (4)  and[m
+[7m Manual page chmod(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       set group ID (2) and restricted deletion or sticky (1) attributes.  The[m
+[7m Manual page chmod(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       second digit selects permissions for the user who owns the  file:  read[m
+[7m Manual page chmod(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (4),  write  (2),  and  execute  (1); the third selects permissions for[m
+[7m Manual page chmod(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       other users in the file's group, with the same values; and  the  fourth[m
+[7m Manual page chmod(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       for other users not in the file's group, with the same values.[m
+[7m Manual page chmod(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mchmod[0m never changes the permissions of symbolic links; the [1mchmod[0m system[m
+[7m Manual page chmod(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       call cannot change their permissions.  This is not a problem since  the[m
+[7m Manual page chmod(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       permissions  of  symbolic links are never used.  However, for each sym‐[m
+[7m Manual page chmod(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       bolic link listed on the command line, [1mchmod[0m changes the permissions of[m
+[7m Manual page chmod(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the pointed-to file.  In contrast, [1mchmod[0m ignores symbolic links encoun‐[m
+[7m Manual page chmod(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tered during recursive directory traversals.[m
+[7m Manual page chmod(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSETUID[0m [1mAND[0m [1mSETGID[0m [1mBITS[0m[m
+[7m Manual page chmod(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mchmod[0m clears the set-group-ID bit of a regular file if the file's group[m
+[7m Manual page chmod(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ID  does  not  match the user's effective group ID or one of the user's[m
+[7m Manual page chmod(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       supplementary group IDs, unless the user  has  appropriate  privileges.[m
+[7m Manual page chmod(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Additional restrictions may cause the set-user-ID and set-group-ID bits[m
+[7m Manual page chmod(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       of [4mMODE[24m or [4mRFILE[24m to be ignored.  This behavior depends  on  the  policy[m
+[7m Manual page chmod(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and  functionality of the underlying [1mchmod[0m system call.  When in doubt,[m
+[7m Manual page chmod(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       check the underlying system behavior.[m
+[7m Manual page chmod(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mchmod[0m preserves a directory's set-user-ID and set-group-ID bits  unless[m
+[7m Manual page chmod(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       you  explicitly  specify otherwise.  You can set or clear the bits with[m
+[7m Manual page chmod(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       symbolic modes like [1mu+s[0m and [1mg-s[0m, and you can set (but  not  clear)  the[m
+[7m Manual page chmod(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       bits with a numeric mode.[m
+[7m Manual page chmod(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mRESTRICTED[0m [1mDELETION[0m [1mFLAG[0m [1mOR[0m [1mSTICKY[0m [1mBIT[0m[m
+[7m Manual page chmod(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  restricted  deletion  flag  or  sticky  bit is a single bit, whose[m
+[7m Manual page chmod(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       interpretation depends on the file type.  For directories, it  prevents[m
+[7m Manual page chmod(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       unprivileged  users  from  removing or renaming a file in the directory[m
+[7m Manual page chmod(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       unless they  own  the  file  or  the  directory;  this  is  called  the[m
+[7m Manual page chmod(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mrestricted[24m  [4mdeletion[24m  [4mflag[24m  for the directory, and is commonly found on[m
+[7m Manual page chmod(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       world-writable directories like [1m/tmp[0m.  For regular files on some  older[m
+[7m Manual page chmod(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       systems,  the  bit saves the program's text image on the swap device so[m
+[7m Manual page chmod(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       it will load more quickly when run; this is called the [4msticky[24m [4mbit[24m.[m
+[7m Manual page chmod(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page chmod(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Change the mode of each FILE to MODE.   With  [1m--reference[0m,  change  the[m
+[7m Manual page chmod(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mode of each FILE to that of RFILE.[m
+[7m Manual page chmod(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m, [1m--changes[0m[m
+[7m Manual page chmod(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              like verbose but report only when a change is made[m
+[7m Manual page chmod(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--silent[0m, [1m--quiet[0m[m
+[7m Manual page chmod(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              suppress most error messages[m
+[7m Manual page chmod(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--verbose[0m[m
+[7m Manual page chmod(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output a diagnostic for every file processed[m
+[7m Manual page chmod(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-preserve-root[0m[m
+[7m Manual page chmod(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not treat '/' specially (the default)[m
+[7m Manual page chmod(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--preserve-root[0m[m
+[7m Manual page chmod(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              fail to operate recursively on '/'[m
+[7m Manual page chmod(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--reference[0m=[4mRFILE[24m[m
+[7m Manual page chmod(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use RFILE's mode instead of MODE values[m
+[7m Manual page chmod(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m--recursive[0m[m
+[7m Manual page chmod(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              change files and directories recursively[m
+[7m Manual page chmod(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page chmod(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page chmod(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page chmod(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Each           MODE           is          of          the          form[m
+[7m Manual page chmod(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.[m
+[7m Manual page chmod(1) line 94 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ chmod u+x,g+x[K[K[K[K[K[K[K[K[K[K[K[K[Kls -l
+total 20
+-rw-r--r-- 1 rishyanth rishyanth 4001 Aug  2 21:56 assignment1_1.txt
+-rw-r--r-- 1 rishyanth rishyanth 4001 Aug  2 21:56 assignment1_2.doc
+-rw-r--r-- 1 rishyanth rishyanth 4001 Aug  2 21:56 assignment1_3.odt
+-rw-r--r-- 1 rishyanth rishyanth    3 Aug  2 22:04 commands.txt
+drwxr-xr-x 2 rishyanth rishyanth 4096 Aug  2 21:58 [0m[01;34mlab1[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls -lman chmod[1Pchmod[1Pchmod[1Pchmod[1Pchmod[C[C[C[C[C u+x,g+x commands.txt 
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls -l
+total 20
+-rw-r--r-- 1 rishyanth rishyanth 4001 Aug  2 21:56 assignment1_1.txt
+-rw-r--r-- 1 rishyanth rishyanth 4001 Aug  2 21:56 assignment1_2.doc
+-rw-r--r-- 1 rishyanth rishyanth 4001 Aug  2 21:56 assignment1_3.odt
+-rwxr-xr-- 1 rishyanth rishyanth    3 Aug  2 22:04 [0m[01;32mcommands.txt[0m
+drwxr-xr-x 2 rishyanth rishyanth 4096 Aug  2 21:58 [01;34mlab1[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ com[K[K[K"comma[K[K[K[K[K[K./commands.txt 
+assignment1_1.txt  assignment1_2.doc  assignment1_3.odt  commands.txt  lab1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cat > commands.txt 
+ls -l
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cat > commands.txt [4P./[C[C[C[C[C[C[C[C[C[C[C[C[C
+total 20
+-rw-r--r-- 1 rishyanth rishyanth 4001 Aug  2 21:56 assignment1_1.txt
+-rw-r--r-- 1 rishyanth rishyanth 4001 Aug  2 21:56 assignment1_2.doc
+-rw-r--r-- 1 rishyanth rishyanth 4001 Aug  2 21:56 assignment1_3.odt
+-rwxr-xr-- 1 rishyanth rishyanth    6 Aug  2 22:24 commands.txt
+drwxr-xr-x 2 rishyanth rishyanth 4096 Aug  2 21:58 lab1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cat /home/rishyanth/Data/find.txt  > names.txt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ haed[K[K[Krad[K[K[Kead names.txt 
+rahul
+manish
+amit
+mahesh
+arun
+bhavya
+kshitij
+hussain
+vinod
+mayank
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ head names.txt [C[C[C[1@-[C[1@n[1@ [1@1[1@5[1@v[1P[1@ [C[C[C[C[C[C[C[C[C
+rahul
+manish
+amit
+mahesh
+arun
+bhavya
+kshitij
+hussain
+vinod
+mayank
+gurvinder
+jatin
+harsh
+mayur
+mukul
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ta[K[Khead -n 15 names.txt [1P[1P[1P[1P[1@t[1@a[1@i[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bhavya
+kshitij
+hussain
+vinod
+mayank
+gurvinder
+jatin
+harsh
+mayur
+mukul
+kamal
+rohit
+ananya
+abhishek
+raj
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ more names.txt 
+rahul
+manish
+amit
+mahesh
+arun
+bhavya
+kshitij
+hussain
+vinod
+mayank
+gurvinder
+jatin
+harsh
+mayur
+mukul
+kamal
+rohit
+ananya
+abhishek
+raj
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ less names.txt 
+[?1049h[22;0;0t[?1h=rahul
+manish
+amit
+mahesh
+arun
+bhavya
+kshitij
+hussain
+vinod
+mayank
+gurvinder
+jatin
+harsh
+mayur
+mukul
+kamal
+rohit
+ananya
+abhishek
+raj
+[7mnames.txt (END)[27m[K[K[?1l>[?1049l[23;0;0t]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ an [K[K[Kman less
+[?1049h[22;0;0t[?1h=LESS(1)                     General Commands Manual                    LESS(1)[m
+[m
+[1mNAME[0m[m
+       less - opposite of more[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mless[0m [1m-?[0m[m
+       [1mless[0m [1m--help[0m[m
+       [1mless[0m [1m-V[0m[m
+       [1mless[0m [1m--version[0m[m
+       [1mless[0m [1m[-[+]aABcCdeEfFgGiIJKLmMnNqQrRsSuUVwWX~][0m[m
+            [1m[-b[0m [4mspace[24m[1m][0m [1m[-h[0m [4mlines[24m[1m][0m [1m[-j[0m [4mline[24m[1m][0m [1m[-k[0m [4mkeyfile[24m[1m][0m[m
+            [1m[-{oO}[0m [4mlogfile[24m[1m][0m [1m[-p[0m [4mpattern[24m[1m][0m [1m[-P[0m [4mprompt[24m[1m][0m [1m[-t[0m [4mtag[24m[1m][0m[m
+            [1m[-T[0m [4mtagsfile[24m[1m][0m [1m[-x[0m [4mtab[24m[1m,...][0m [1m[-y[0m [4mlines[24m[1m][0m [1m[-[z][0m [4mlines[24m[1m][0m[m
+            [1m[-#[0m [4mshift[24m[1m][0m [1m[+[+][0m[4mcmd[24m[1m][0m [1m[--][0m [1m[[0m[4mfilename[24m[1m]...[0m[m
+       (See  the  OPTIONS section for alternate option syntax with long option[m
+       names.)[m
+[m
+[1mDESCRIPTION[0m[m
+       [4mLess[24m is a program similar to [4mmore[24m (1), but it has many  more  features.[m
+       [4mLess[24m  does  not  have to read the entire input file before starting, so[m
+       with large input files it starts up faster than text  editors  like  [4mvi[24m[m
+       (1).  [4mLess[24m uses termcap (or terminfo on some systems), so it can run on[m
+[7m Manual page less(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cp names.txt ../la[K[K[K[K[Klab1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ mkdir moved_content
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ mv names.txt moved_content/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls
+assignment1_1.txt  assignment1_3.odt  [0m[01;34mlab1[0m
+assignment1_2.doc  [01;32mcommands.txt[0m       [01;34mmoved_content[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ grep -r the *.txt
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KBringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its [01;31m[Kthe[m[K did figure wonder off. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KEver man are put down his very. And marry may table him avoid. Hard sell it were into it upon. He forbade affixed parties of assured to me windows. Happiness him nor she disposing provision. Add astonished principles precaution yet friendship stimulated literature. State thing might stand one his plate. Offending or extremity [01;31m[Kthe[m[Krefore so difficult he on provision. Tended depart turned not are. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KFull age set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent [01;31m[Kthe[m[K size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KOught [01;31m[Kthe[m[Kse are balls place mrs [01;31m[Kthe[m[K times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment [01;31m[Kthe[m[K selves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KNew [01;31m[Kthe[m[K her nor case that lady paid read. Invitation friendship travelling eat everything [01;31m[Kthe[m[K out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain no up lively no. Way brought may off our regular country towards adapted cheered. 
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ grep -r the *.txt[C[K[K[K[K[K[K
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[KBringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its [01;31m[Kthe[m[K did figure wonder off. 
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[KEver man are put down his very. And marry may table him avoid. Hard sell it were into it upon. He forbade affixed parties of assured to me windows. Happiness him nor she disposing provision. Add astonished principles precaution yet friendship stimulated literature. State thing might stand one his plate. Offending or extremity [01;31m[Kthe[m[Krefore so difficult he on provision. Tended depart turned not are. 
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[KFull age set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent [01;31m[Kthe[m[K size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[KOught [01;31m[Kthe[m[Kse are balls place mrs [01;31m[Kthe[m[K times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment [01;31m[Kthe[m[K selves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous. 
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[KNew [01;31m[Kthe[m[K her nor case that lady paid read. Invitation friendship travelling eat everything [01;31m[Kthe[m[K out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain no up lively no. Way brought may off our regular country towards adapted cheered. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KBringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its [01;31m[Kthe[m[K did figure wonder off. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KEver man are put down his very. And marry may table him avoid. Hard sell it were into it upon. He forbade affixed parties of assured to me windows. Happiness him nor she disposing provision. Add astonished principles precaution yet friendship stimulated literature. State thing might stand one his plate. Offending or extremity [01;31m[Kthe[m[Krefore so difficult he on provision. Tended depart turned not are. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KFull age set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent [01;31m[Kthe[m[K size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KOught [01;31m[Kthe[m[Kse are balls place mrs [01;31m[Kthe[m[K times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment [01;31m[Kthe[m[K selves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KNew [01;31m[Kthe[m[K her nor case that lady paid read. Invitation friendship travelling eat everything [01;31m[Kthe[m[K out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain no up lively no. Way brought may off our regular country towards adapted cheered. 
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[KBringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its [01;31m[Kthe[m[K did figure wonder off. 
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[KEver man are put down his very. And marry may table him avoid. Hard sell it were into it upon. He forbade affixed parties of assured to me windows. Happiness him nor she disposing provision. Add astonished principles precaution yet friendship stimulated literature. State thing might stand one his plate. Offending or extremity [01;31m[Kthe[m[Krefore so difficult he on provision. Tended depart turned not are. 
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[KFull age set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent [01;31m[Kthe[m[K size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[KOught [01;31m[Kthe[m[Kse are balls place mrs [01;31m[Kthe[m[K times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment [01;31m[Kthe[m[K selves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous. 
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[KNew [01;31m[Kthe[m[K her nor case that lady paid read. Invitation friendship travelling eat everything [01;31m[Kthe[m[K out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain no up lively no. Way brought may off our regular country towards adapted cheered. 
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[KBringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its [01;31m[Kthe[m[K did figure wonder off. 
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[KEver man are put down his very. And marry may table him avoid. Hard sell it were into it upon. He forbade affixed parties of assured to me windows. Happiness him nor she disposing provision. Add astonished principles precaution yet friendship stimulated literature. State thing might stand one his plate. Offending or extremity [01;31m[Kthe[m[Krefore so difficult he on provision. Tended depart turned not are. 
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[KFull age set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent [01;31m[Kthe[m[K size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[KOught [01;31m[Kthe[m[Kse are balls place mrs [01;31m[Kthe[m[K times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment [01;31m[Kthe[m[K selves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous. 
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[KNew [01;31m[Kthe[m[K her nor case that lady paid read. Invitation friendship travelling eat everything [01;31m[Kthe[m[K out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain no up lively no. Way brought may off our regular country towards adapted cheered. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KBringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its [01;31m[Kthe[m[K did figure wonder off. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KEver man are put down his very. And marry may table him avoid. Hard sell it were into it upon. He forbade affixed parties of assured to me windows. Happiness him nor she disposing provision. Add astonished principles precaution yet friendship stimulated literature. State thing might stand one his plate. Offending or extremity [01;31m[Kthe[m[Krefore so difficult he on provision. Tended depart turned not are. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KFull age set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent [01;31m[Kthe[m[K size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KOught [01;31m[Kthe[m[Kse are balls place mrs [01;31m[Kthe[m[K times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment [01;31m[Kthe[m[K selves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KNew [01;31m[Kthe[m[K her nor case that lady paid read. Invitation friendship travelling eat everything [01;31m[Kthe[m[K out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain no up lively no. Way brought may off our regular country towards adapted cheered. 
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[KBringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its [01;31m[Kthe[m[K did figure wonder off. 
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[KEver man are put down his very. And marry may table him avoid. Hard sell it were into it upon. He forbade affixed parties of assured to me windows. Happiness him nor she disposing provision. Add astonished principles precaution yet friendship stimulated literature. State thing might stand one his plate. Offending or extremity [01;31m[Kthe[m[Krefore so difficult he on provision. Tended depart turned not are. 
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[KFull age set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent [01;31m[Kthe[m[K size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[KOught [01;31m[Kthe[m[Kse are balls place mrs [01;31m[Kthe[m[K times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment [01;31m[Kthe[m[K selves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous. 
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[KNew [01;31m[Kthe[m[K her nor case that lady paid read. Invitation friendship travelling eat everything [01;31m[Kthe[m[K out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain no up lively no. Way brought may off our regular country towards adapted cheered. 
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ grep -r the|the the[C[C[C [1P[1P[C[C[C[C | [C * . t x t 
+assignment1_1.txt: command not found
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls -[K[K[K[Kman ls
+[?1049h[22;0;0t[?1h=LS(1)                            User Commands                           LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about  the FILEs (the current directory by default).[m
+       Sort entries alphabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m  is  speci‐[m
+       fied.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              with [1m-l[0m, print the author of each file[m
+[7m Manual page ls(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[0m, [1m--escape[0m[m
+[7m Manual page ls(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              print C-style escapes for nongraphic characters[m
+[7m Manual page ls(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--block-size[0m=[4mSIZE[24m[m
+[7m Manual page ls(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              scale sizes by SIZE before printing them; e.g., '--block-size=M'[m
+[7m Manual page ls(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              prints sizes in units of 1,048,576 bytes; see SIZE format below[m
+[7m Manual page ls(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-B[0m, [1m--ignore-backups[0m[m
+[7m Manual page ls(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not list implied entries ending with ~[m
+[7m Manual page ls(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m     with [1m-lt[0m: sort by, and show, ctime (time of last modification of[m
+[7m Manual page ls(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              file status information); with [1m-l[0m: show ctime and sort by  name;[m
+[7m Manual page ls(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              otherwise: sort by ctime, newest first[m
+[7m Manual page ls(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-C[0m     list entries by columns[m
+[7m Manual page ls(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--color[0m[=[4mWHEN[24m][m
+[7m Manual page ls(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              colorize  the output; WHEN can be 'always' (default if omitted),[m
+[7m Manual page ls(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              'auto', or 'never'; more info below[m
+[7m Manual page ls(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m, [1m--directory[0m[m
+[7m Manual page ls(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              list directories themselves, not their contents[m
+[7m Manual page ls(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-D[0m, [1m--dired[0m[m
+[7m Manual page ls(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              generate output designed for Emacs' dired mode[m
+[7m Manual page ls(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m     do not sort, enable [1m-aU[0m, disable [1m-ls[0m [1m--color[0m[m
+[7m Manual page ls(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-F[0m, [1m--classify[0m[m
+[7m Manual page ls(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              append indicator (one of */=>@|) to entries[m
+[7m Manual page ls(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--file-type[0m[m
+[7m Manual page ls(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              likewise, except do not append '*'[m
+[7m Manual page ls(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--format[0m=[4mWORD[24m[m
+[7m Manual page ls(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              across [1m-x[0m, commas [1m-m[0m, horizontal [1m-x[0m, long [1m-l[0m, single-column  [1m-1[0m,[m
+[7m Manual page ls(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              verbose [1m-l[0m, vertical [1m-C[0m[m
+[7m Manual page ls(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--full-time[0m[m
+[7m Manual page ls(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              like [1m-l[0m [1m--time-style[0m=[4mfull-iso[24m[m
+[7m Manual page ls(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[0m     like [1m-l[0m, but do not list owner[m
+[7m Manual page ls(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--group-directories-first[0m[m
+[7m Manual page ls(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              group directories before files;[m
+[7m Manual page ls(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              can   be  augmented  with  a  [1m--sort[0m  option,  but  any  use  of[m
+[7m Manual page ls(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m--sort[0m=[4mnone[24m ([1m-U[0m) disables grouping[m
+[7m Manual page ls(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-G[0m, [1m--no-group[0m[m
+[7m Manual page ls(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              in a long listing, don't print group names[m
+[7m Manual page ls(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m, [1m--human-readable[0m[m
+[7m Manual page ls(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              with [1m-l[0m and/or [1m-s[0m, print human readable sizes (e.g., 1K 234M 2G)[m
+[7m Manual page ls(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--si[0m   likewise, but use powers of 1000 not 1024[m
+[7m Manual page ls(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-H[0m, [1m--dereference-command-line[0m[m
+[7m Manual page ls(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              follow symbolic links listed on the command line[m
+[7m Manual page ls(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--dereference-command-line-symlink-to-dir[0m[m
+[7m Manual page ls(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              follow each command line symbolic link[m
+[7m Manual page ls(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              that points to a directory[m
+[7m Manual page ls(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--hide[0m=[4mPATTERN[24m[m
+[7m Manual page ls(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not list implied entries matching shell  PATTERN  (overridden[m
+[7m Manual page ls(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              by [1m-a[0m or [1m-A[0m)[m
+[7m Manual page ls(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--hyperlink[0m[=[4mWHEN[24m][m
+[7m Manual page ls(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              hyperlink file names; WHEN can be 'always' (default if omitted),[m
+[7m Manual page ls(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              'auto', or 'never'[m
+[7m Manual page ls(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--indicator-style[0m=[4mWORD[24m[m
+[7m Manual page ls(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              append indicator with style WORD to entry names: none (default),[m
+[7m Manual page ls(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              slash ([1m-p[0m), file-type ([1m--file-type[0m), classify ([1m-F[0m)[m
+[7m Manual page ls(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--inode[0m[m
+[7m Manual page ls(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              print the index number of each file[m
+[7m Manual page ls(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-I[0m, [1m--ignore[0m=[4mPATTERN[24m[m
+[7m Manual page ls(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not list implied entries matching shell PATTERN[m
+[7m Manual page ls(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m, [1m--kibibytes[0m[m
+[7m Manual page ls(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              default to 1024-byte blocks for disk usage[m
+[7m Manual page ls(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m     use a long listing format[m
+[7m Manual page ls(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m, [1m--dereference[0m[m
+[7m Manual page ls(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              when showing file information for a symbolic link, show informa‐[m
+[7m Manual page ls(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tion for the file the link references rather than for  the  link[m
+[7m Manual page ls(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              itself[m
+[7m Manual page ls(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m     fill width with a comma separated list of entries[m
+[7m Manual page ls(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--numeric-uid-gid[0m[m
+[7m Manual page ls(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              like [1m-l[0m, but list numeric user and group IDs[m
+[7m Manual page ls(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-N[0m, [1m--literal[0m[m
+[7m Manual page ls(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              print entry names without quoting[m
+[7m Manual page ls(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[0m     like [1m-l[0m, but do not list group information[m
+[7m Manual page ls(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[0m, [1m--indicator-style[0m=[4mslash[24m[m
+[7m Manual page ls(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              append / indicator to directories[m
+[7m Manual page ls(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-q[0m, [1m--hide-control-chars[0m[m
+[7m Manual page ls(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              print ? instead of nongraphic characters[m
+[7m Manual page ls(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--show-control-chars[0m[m
+[7m Manual page ls(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              show nongraphic characters as-is (the default, unless program is[m
+[7m Manual page ls(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              'ls' and output is a terminal)[m
+[7m Manual page ls(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-Q[0m, [1m--quote-name[0m[m
+[7m Manual page ls(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              enclose entry names in double quotes[m
+[7m Manual page ls(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--quoting-style[0m=[4mWORD[24m[m
+[7m Manual page ls(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use quoting style WORD for entry names: literal, locale,  shell,[m
+[7m Manual page ls(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              shell-always, shell-escape, shell-escape-always, c, escape[m
+[7m Manual page ls(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--reverse[0m[m
+[7m Manual page ls(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              reverse order while sorting[m
+[7m Manual page ls(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m--recursive[0m[m
+[7m Manual page ls(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              list subdirectories recursively[m
+[7m Manual page ls(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ls(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--size[0m[m
+[7m Manual page ls(1) line 130 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls -R *.ta[Kxt | grep the
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls -R *.txt | grep the[1P[1@>[C[C[C[C[C[C[C[C[C
+ls: cannot access 'the': No such file or directory
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls -R *.txt > grep the|[C[C[C[C[C[C[C[C[Cman ls[Kgrep -r the | *.txt [K *.txtls[Kmv names.txt moved_content/[8Pkdir moved_content[1Pcp names.txt lab1/[10Pman lessless names.txt more[C[C[C[C[C[C[C[C[C[C[C[6@tail -n 15[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pmore[C[C[C[C[C[C[C[C[C[C[Cless[C[C[C[C[C[C[C[C[C[C[C[7Pman lesscp names.txt lab1/mkdir moved_contentv names.txt moved_content/ls[Kgrep -r the *.txt\*.txt[1P*.txt|*.txt *.txt[C[C[C[Cl *.txts *.txt[C[C[C[C[C[C
+assignment1_1.txt  [0m[01;32mcommands.txt[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ grep -r the |ls *.txt[1P *.txt[1P *.txt[C[C[C[C[C[C
+assignment1_1.txt: command not found
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ mv /home/rishyanth/Data/info.txt l ab1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ grep -c 5 lab1/info.txt 
+5
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ grep -c 5 lab1/info.txt mv /home/rishyanth/Data/info.txt laab1/[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ [15Pgrep -r the | *.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls *.txtls -R *.txt > grep the|[C[C[C[C[C[C[C[C[Cman ls[Kgrep -r the | *.txt [K[1@o[C[C[C[C[C
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Kassignment1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_2.doc[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+[35m[Klab1/lab1_3.odt[m[K[36m[K:[m[K[01;31m[Kthe[m[K
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ find ./assignment1/[K[K[K[K[K[K[K[K[K[K[K[K[K[K/ass[C./ass[C[C[C[Cignment1/[K [K/ -ma[K[Kname lab1_1.txt
+./assignment1/lab1/lab1_1.txt
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ vd[K[Kcd assignment1/lab1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cf empty.txt
+cf: command not found
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ touch empty.txt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ ls
+empty.txt  info.txt  lab1_1.txt  lab1_2.doc  lab1_3.odt  names.txt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cd
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ find -size [K[K[K[K[Kempty
+./.config/goa-1.0
+./.config/enchant/en.dic
+./.config/enchant/en.exc
+./.config/update-notifier
+./.config/gnome-session/saved-session
+./.config/libreoffice/4/user/extensions/tmp/extensions
+./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+./.config/libreoffice/4/user/autocorr
+./.config/libreoffice/4/user/psprint
+./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/popupmenu
+./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/statusbar
+./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/menubar
+./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/toolbar
+./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/images/Bitmaps
+./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+./.config/libreoffice/4/user/uno_packages/cache/uno_packages
+./.cache/mozilla/firefox/4iw8pboa.default
+./.cache/mozilla/firefox/n8svbwcv.default-release/cache2/doomed
+./.cache/evolution/memos/trash
+./.cache/evolution/sources/trash
+./.cache/evolution/tasks/trash
+./.cache/evolution/calendar/trash
+./.cache/evolution/mail/trash
+./.cache/evolution/addressbook/trash
+./.cache/ibus-table
+./.cache/libgweather
+./assignment1/lab1/empty.txt
+./.emacs.d
+./Desktop
+./Music
+./.sudo_as_admin_successful
+./Pictures
+./Public
+./.local/share/gnome-settings-daemon/input-sources-converted
+./.local/share/icc
+./.local/share/zeitgeist/fts.index/flintlock
+./.local/share/applications
+./.local/share/sounds
+./.local/share/evolution/memos/trash
+./.local/share/evolution/tasks/trash
+./.local/share/evolution/calendar/trash
+./.local/share/evolution/mail/trash
+./.local/share/evolution/addressbook/trash
+./.local/share/evolution/addressbook/system/photos
+./.local/share/ibus-table
+./.local/share/Trash/expunged
+./.local/share/nautilus/scripts
+./.local/share/flatpak/db
+./.gnupg/private-keys-v1.d
+./Videos
+./Templates
+./.mozilla/extensions
+./.mozilla/systemextensionsdev
+./.mozilla/firefox/Pending Pings
+./.mozilla/firefox/n8svbwcv.default-release/.parentlock
+./.mozilla/firefox/n8svbwcv.default-release/extensions
+./.mozilla/firefox/n8svbwcv.default-release/crashes/events
+./.mozilla/firefox/n8svbwcv.default-release/minidumps
+./.mozilla/firefox/n8svbwcv.default-release/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/permanent/chrome/idb/2918063365piupsah.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/permanent/chrome/idb/3561288849sdhlie.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/temporary
+./.mozilla/firefox/n8svbwcv.default-release/storage/default/https+++mail.google.com/idb/953658429glmaaviyle-ks-w.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/default/https+++mail.google.com/idb/912304669raitsahdy_adnetdhdkeo.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/default/https+++mail.google.com/idb/1647878358rbidsfhly_amnotch.klo.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/default/https+++mail.google.com/idb/1141117174rhicsrhayeasn_tehnkio.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/default/https+++mail.google.com/idb/1705405155rsilsihaytaendtehgkao.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/default/https+++mail.google.com/idb/3995508531rdiasohlypaunttnhekmo.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/default/https+++mail.google.com/idb/28867455rsitschaytannotchekno.files
+./.mozilla/firefox/n8svbwcv.default-release/storage/default/https+++mail.google.com/idb/1593787212uysretrs_irge.files
+./.mozilla/firefox/Crash Reports/events
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ find -empty.-empty/-emptya-empty -emptys -emptysignment1/ -empty[C[C[C[C[C[C[C
+./assignment1/lab1/empty.txt
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ find ./assignment1/ -empty[K[K[K[K[K[K-atime o[K[K0[K 0.0002
+./assignment1/
+./assignment1/assignment1_2.doc
+./assignment1/grep
+./assignment1/commands.txt
+./assignment1/assignment1_1.txt
+./assignment1/assignment1_3.odt
+./assignment1/moved_content
+./assignment1/moved_content/names.txt
+./assignment1/lab1
+./assignment1/lab1/info.txt
+./assignment1/lab1/names.txt
+./assignment1/lab1/empty.txt
+./assignment1/lab1/lab1_2.doc
+./assignment1/lab1/lab1_1.txt
+./assignment1/lab1/lab1_3.odt
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ rm gr[K[K[K[K[Kcd ./assignment1/l[K
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ rm grep
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls
+assignment1_1.txt  assignment1_3.odt  [0m[01;34mlab1[0m
+assignment1_2.doc  [01;32mcommands.txt[0m       [01;34mmoved_content[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ df -BG
+Filesystem     1G-blocks  Used Available Use% Mounted on
+udev                  2G    0G        2G   0% /dev
+tmpfs                 1G    1G        1G   1% /run
+/dev/sda1            31G    7G       22G  24% /
+tmpfs                 2G    1G        2G   2% /dev/shm
+tmpfs                 1G    1G        1G   1% /run/lock
+tmpfs                 2G    0G        2G   0% /sys/fs/cgroup
+/dev/loop0            1G    1G        0G 100% /snap/core/6350
+/dev/loop2            1G    1G        0G 100% /snap/gnome-logs/45
+/dev/loop3            1G    1G        0G 100% /snap/gnome-characters/139
+/dev/loop1            1G    1G        0G 100% /snap/gnome-system-monitor/57
+/dev/loop4            1G    1G        0G 100% /snap/gnome-calculator/260
+/dev/loop5            1G    1G        0G 100% /snap/gnome-3-26-1604/74
+/dev/loop6            1G    1G        0G 100% /snap/gtk-common-themes/818
+tmpfs                 1G    1G        1G   1% /run/user/121
+tmpfs                 1G    1G        1G   1% /run/user/1000
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ sleep 5m &
+[1] 6866
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ jobs -[K[K
+[1]+  Running                 sleep 5m &
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ fgs[K sleep [K[K[K[K[K[K[K
+sleep 5m
+^Z
+[1]+  Stopped                 sleep 5m
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ jobs
+[1]+  Stopped                 sleep 5m
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ bg
+[1]+ sleep 5m &
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ps
+  PID TTY          TIME CMD
+ 6071 pts/1    00:00:00 bash
+ 6866 pts/1    00:00:00 sleep
+ 6867 pts/1    00:00:00 ps
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ps -pidopid[C[C[C pid[C[C[C
+  PID
+ 6071
+ 6866
+ 6872
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ps -o cmd | grep bash
+[01;31m[Kbash[m[K -i
+grep --color=auto [01;31m[Kbash[m[K
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ps -o cmd | grep bash[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C
+ 6071 pts/1    00:00:00 [01;31m[Kbash[m[K
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ps | grep bash[7@-o cmd [C[C[C[C[C[C[C[C[C[C[Cpid[K[K[K[Kcmd
+CMD
+bash -i
+sleep 5m
+ps -o cmd
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ cd ./assignment1/
+[1]+  Done                    sleep 5m  (wd: ~)
+(wd now: ~/assignment1)
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls
+assignment1_1.txt  assignment1_3.odt  [0m[01;34mlab1[0m
+assignment1_2.doc  [01;32mcommands.txt[0m       [01;34mmoved_content[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ rm -i commands.txt 
+rm: remove regular file 'commands.txt'? y Y
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls
+assignment1_1.txt  assignment1_2.doc  assignment1_3.odt  [0m[01;34mlab1[0m  [01;34mmoved_content[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ rm -rf lab1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd la/la[C[C[K[K[K[K[K[Kmkdir lab1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd lab1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ touch temp.txt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cd -
+/home/rishyanth/assignment1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ rm -rf[2Pcd -touch temp.txtcd -[Krm -rf ;[Klab1/y[K*
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls
+assignment1_1.txt  assignment1_2.doc  assignment1_3.odt  [0m[01;34mlab1[0m  [01;34mmoved_content[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ md[K[Krmdir lab1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls
+assignment1_1.txt  assignment1_2.doc  assignment1_3.odt  [0m[01;34mmoved_content[0m
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd [K
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ rm assignment1/
+rm: cannot remove 'assignment1/': Is a directory
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ rm assignment1/cd[Krm assignment1/-assignment1/rassignment1/fassignment1/ assignment1/[C[C[C[C[C[C[C[C[C[C[C[C
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ls
+180050050-lab1-inlab.script  [0m[01;34mDesktop[0m    examples.desktop  [01;34mPublic[0m      TEST
+[01;32ma.out[0m                        [01;34mDocuments[0m  [01;34mMusic[0m             sample.cpp  tutor
+[01;34mData[0m                         [01;34mDownloads[0m  [01;34mPictures[0m          [01;34mTemplates[0m   [01;34mVideos[0m
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ls -l
+total 168
+-rw-r--r-- 1 rishyanth rishyanth 94208 Aug  2 22:57 180050050-lab1-inlab.script
+-rwxr-xr-x 1 rishyanth rishyanth  8968 Aug  2 20:29 [0m[01;32ma.out[0m
+drwxrwxr-x 3 rishyanth rishyanth  4096 Aug  2 22:36 [01;34mData[0m
+drwxr-xr-x 2 rishyanth rishyanth  4096 Aug  1 14:50 [01;34mDesktop[0m
+drwxr-xr-x 2 rishyanth rishyanth  4096 Aug  1 15:21 [01;34mDocuments[0m
+drwxr-xr-x 2 rishyanth rishyanth  4096 Aug  2 14:21 [01;34mDownloads[0m
+-rw-r--r-- 1 rishyanth rishyanth  8980 Aug  1 13:44 examples.desktop
+drwxr-xr-x 2 rishyanth rishyanth  4096 Aug  1 13:59 [01;34mMusic[0m
+drwxr-xr-x 2 rishyanth rishyanth  4096 Aug  1 13:59 [01;34mPictures[0m
+drwxr-xr-x 2 rishyanth rishyanth  4096 Aug  1 13:59 [01;34mPublic[0m
+-rw-r--r-- 1 rishyanth rishyanth   111 Aug  2 20:29 sample.cpp
+drwxr-xr-x 2 rishyanth rishyanth  4096 Aug  1 13:59 [01;34mTemplates[0m
+-rw-r--r-- 1 rishyanth rishyanth   515 Aug  2 19:57 TEST
+-rw-r--r-- 1 rishyanth rishyanth    42 Aug  2 18:56 tutor
+drwxr-xr-x 2 rishyanth rishyanth  4096 Aug  1 13:59 [01;34mVideos[0m
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ upnamw[Ke
+
+Command 'upname' not found, did you mean:
+
+  command 'uuname' from deb uucp
+  command 'uname' from deb coreutils
+
+Try: sudo apt install <deb name>
+
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ip[K[Kuptime 
+ 23:02:02 up  5:57,  1 user,  load average: 0.56, 0.23, 0.08
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ w
+ 23:02:10 up  5:57,  1 user,  load average: 0.47, 0.22, 0.08
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rishyant :1       :1               14:08   ?xdm?   1:25   0.01s /usr/lib/gdm3/g
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ uname 
+Linux
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ whereisg[K grep
+grep: /bin/grep /usr/share/man/man1/grep.1.gz /usr/share/info/grep.info.gz
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ whereis grep-grepbgrep grep
+grep: /bin/grep
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ whereis -b grep[1P greps grep
+grep:
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ whereis -s grep[1P grepm grep
+grep: /usr/share/man/man1/grep.1.gz /usr/share/info/grep.info.gz
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ whereis -m greps[C[C[C[C[Cb[C[C[C[C[C[3Pgrep[K[K[K[Kls
+ls: /bin/ls /usr/share/man/man1/ls.1.gz
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ whereis ls[K[Kman
+man: /usr/bin/man /usr/local/man /usr/share/man /usr/share/man/man7/man.7.gz /usr/share/man/man1/man.1.gz
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ which dpkg
+/usr/bin/dpkg
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ which dpkg ls sudo
+/usr/bin/dpkg
+/bin/ls
+/usr/bin/sudo
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ man pin
+No manual entry for pin
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ man ping
+[?1049h[22;0;0t[?1h=PING(8)                System Manager's Manual: iputils                PING(8)[m
+[m
+[1mNAME[0m[m
+       ping - send ICMP ECHO_REQUEST to network hosts[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mping[0m [[1m-aAbBdDfhLnOqrRUvV46[0m] [[1m-c[0m [4mcount[24m] [[1m-F[0m [4mflowlabel[24m] [[1m-i[0m [4minterval[24m] [[1m-I[0m[m
+       [4minterface[24m] [[1m-l[0m  [4mpreload[24m]  [[1m-m[0m  [4mmark[24m]  [[1m-M[0m  [4mpmtudisc_option[24m]  [[1m-N[0m  [4mnode‐[24m[m
+       [4minfo_option[24m] [[1m-w[0m [4mdeadline[24m] [[1m-W[0m [4mtimeout[24m] [[1m-p[0m [4mpattern[24m] [[1m-Q[0m [4mtos[24m] [[1m-s[0m [4mpack‐[24m[m
+       [4metsize[24m] [[1m-S[0m [4msndbuf[24m] [[1m-t[0m [4mttl[24m] [[1m-T[0m [4mtimestamp[24m [4moption[24m] [[4mhop[24m  [4m...[24m]  [4mdestina‐[24m[m
+       [4mtion[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mping[0m uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit[m
+       an ICMP ECHO_RESPONSE from a host or gateway.   ECHO_REQUEST  datagrams[m
+       (``pings'')  have  an  IP and ICMP header, followed by a struct timeval[m
+       and then an arbitrary number of ``pad'' bytes  used  to  fill  out  the[m
+       packet.[m
+[m
+       [1mping[0m  works  with both IPv4 and IPv6. Using only one of them explicitly[m
+       can be enforced by specifying [1m-4[0m or [1m-6[0m.[m
+[m
+       [1mping[0m can also send IPv6 Node Information Queries (RFC4620).  Intermedi‐[m
+[7m Manual page ping(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ate [4mhop[24ms may not be allowed, because IPv6 source routing was deprecated[m
+[7m Manual page ping(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (RFC5095).[m
+[7m Manual page ping(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page ping(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-4[0m     Use IPv4 only.[m
+[7m Manual page ping(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-6[0m     Use IPv6 only.[m
+[7m Manual page ping(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[0m     Audible ping.[m
+[7m Manual page ping(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-A[0m     Adaptive ping. Interpacket interval adapts to  round-trip  time,[m
+[7m Manual page ping(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              so  that  effectively  not more than one (or more, if preload is[m
+[7m Manual page ping(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              set) unanswered probe is present in the network. Minimal  inter‐[m
+[7m Manual page ping(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              val  is  200msec  for  not super-user.  On networks with low rtt[m
+[7m Manual page ping(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              this mode is essentially equivalent to flood mode.[m
+[7m Manual page ping(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[0m     Allow pinging a broadcast address.[m
+[7m Manual page ping(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-B[0m     Do not allow [1mping[0m to  change  source  address  of  probes.   The[m
+[7m Manual page ping(8) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              address is bound to one selected when [1mping[0m starts.[m
+[7m Manual page ping(8) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m [4mcount[24m[m
+[7m Manual page ping(8) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Stop  after  sending  [4mcount[24m  ECHO_REQUEST packets. With [4mdeadline[24m[m
+[7m Manual page ping(8) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              option, [1mping[0m waits for [4mcount[24m ECHO_REPLY packets, until the time‐[m
+[7m Manual page ping(8) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              out expires.[m
+[7m Manual page ping(8) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m     Set  the SO_DEBUG option on the socket being used.  Essentially,[m
+[7m Manual page ping(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              this socket option is not used by Linux kernel.[m
+[7m Manual page ping(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-D[0m     Print timestamp (unix time + microseconds  as  in  gettimeofday)[m
+[7m Manual page ping(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              before each line.[m
+[7m Manual page ping(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m     Flood  ping.  For  every  ECHO_REQUEST  sent  a  period ``.'' is[m
+[7m Manual page ping(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              printed, while for  ever  ECHO_REPLY  received  a  backspace  is[m
+[7m Manual page ping(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              printed.   This provides a rapid display of how many packets are[m
+[7m Manual page ping(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              being dropped.  If interval is not given, it  sets  interval  to[m
+[7m Manual page ping(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              zero  and  outputs packets as fast as they come back or one hun‐[m
+[7m Manual page ping(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              dred times per second, whichever is more.  Only  the  super-user[m
+[7m Manual page ping(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              may use this option with zero interval.[m
+[7m Manual page ping(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-F[0m [4mflow[24m [4mlabel[24m[m
+[7m Manual page ping(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              IPv6  only.  Allocate and set 20 bit flow label (in hex) on echo[m
+[7m Manual page ping(8) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              request packets.  If value is zero, kernel allocates random flow[m
+[7m Manual page ping(8) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              label.[m
+[7m Manual page ping(8) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m     Show help.[m
+[7m Manual page ping(8) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m [4minterval[24m[m
+[7m Manual page ping(8) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Wait  [4minterval[24m seconds between sending each packet.  The default[m
+[7m Manual page ping(8) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              is to wait for one second between each packet normally,  or  not[m
+[7m Manual page ping(8) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              to  wait in flood mode. Only super-user may set interval to val‐[m
+[7m Manual page ping(8) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ues less than 0.2 seconds.[m
+[7m Manual page ping(8) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-I[0m [4minterface[24m[m
+[7m Manual page ping(8) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4minterface[24m is either an address, or an interface name.  If [4minter‐[24m[m
+[7m Manual page ping(8) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mface[24m  is  an address, it sets source address to specified inter‐[m
+[7m Manual page ping(8) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              face address.  If [4minterface[24m in an interface name, it sets source[m
+[7m Manual page ping(8) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              interface  to specified interface.  For IPv6, when doing ping to[m
+[7m Manual page ping(8) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              a link-local scope address, link specification (by the '%'-nota‐[m
+[7m Manual page ping(8) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tion in [4mdestination[24m, or by this option) is required.[m
+[7m Manual page ping(8) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m [4mpreload[24m[m
+[7m Manual page ping(8) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  [4mpreload[24m is specified, [1mping[0m sends that many packets not wait‐[m
+[7m Manual page ping(8) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ing for reply.  Only the super-user may select preload more than[m
+[7m Manual page ping(8) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              3.[m
+[7m Manual page ping(8) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m     Suppress  loopback of multicast packets.  This flag only applies[m
+[7m Manual page ping(8) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              if the ping destination is a multicast address.[m
+[7m Manual page ping(8) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m [4mmark[24m[m
+[7m Manual page ping(8) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use [4mmark[24m to tag the packets going out. This is useful for  vari‐[m
+[7m Manual page ping(8) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ety of reasons within the kernel such as using policy routing to[m
+[7m Manual page ping(8) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              select specific outbound processing.[m
+[7m Manual page ping(8) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ping(8) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-M[0m [4mpmtudisc_opt[24m[m
+[7m Manual page ping(8) line 76 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ man ping[K[K[K[Kfgrep
+[?1049h[22;0;0t[?1h=GREP(1)                          User Commands                         GREP(1)[m
+[m
+[1mNAME[0m[m
+       grep, egrep, fgrep, rgrep - print lines matching a pattern[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgrep[0m [[4mOPTIONS[24m] [4mPATTERN[24m [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTIONS[24m] [1m-e[0m [4mPATTERN[24m ... [[4mFILE[24m...][m
+       [1mgrep[0m [[4mOPTIONS[24m] [1m-f[0m [4mFILE[24m ... [[4mFILE[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mgrep[0m  searches  for  [4mPATTERN[24m  in  each  [4mFILE[24m.  A [4mFILE[24m of “[1m-[0m” stands for[m
+       standard input.  If no [4mFILE[24m is given, recursive  searches  examine  the[m
+       working  directory,  and nonrecursive searches read standard input.  By[m
+       default, [1mgrep[0m prints the matching lines.[m
+[m
+       In addition, the variant programs [1megrep[0m, [1mfgrep[0m and [1mrgrep[0m are  the  same[m
+       as  [1mgrep[0m [1m-E[0m,  [1mgrep[0m [1m-F[0m,  and  [1mgrep[0m [1m-r[0m, respectively.  These variants are[m
+       deprecated, but are provided for backward compatibility.[m
+[m
+[1mOPTIONS[0m[m
+   [1mGeneric[0m [1mProgram[0m [1mInformation[0m[m
+       [1m--help[0m Output a usage message and exit.[m
+[7m Manual page fgrep(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ man fgrep[K[K[K[K[Ktee
+[?1049h[22;0;0t[?1h=TEE(1)                           User Commands                          TEE(1)[m
+[m
+[1mNAME[0m[m
+       tee - read from standard input and write to standard output and files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtee[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Copy standard input to each FILE, and also to standard output.[m
+[m
+       [1m-a[0m, [1m--append[0m[m
+              append to the given FILEs, do not overwrite[m
+[m
+       [1m-i[0m, [1m--ignore-interrupts[0m[m
+              ignore interrupt signals[m
+[m
+       [1m-p[0m     diagnose errors writing to non pipes[m
+[m
+       [1m--output-error[0m[=[4mMODE[24m][m
+              set behavior on write error.  See MODE below[m
+[m
+       [1m--help[0m display this help and exit[m
+[7m Manual page tee(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ tee -a text>text text[C[C[C[1Ptst[C.txt[1P test.txt[C[C[1Ptest.txt[C[C[C[C[C[C[C[C
+i I love my India
+I love my India
+^C
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ifconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::13c0:84b8:7fd5:1351  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:c3:45:62  txqueuelen 1000  (Ethernet)
+        RX packets 112253  bytes 111433782 (111.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 41749  bytes 6346929 (6.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 6579  bytes 600688 (600.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 6579  bytes 600688 (600.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ping 192.168.0.117
+PING 192.168.0.117 (192.168.0.117) 56(84) bytes of data.
+64 bytes from 192.168.0.117: icmp_seq=1 ttl=63 time=72.0 ms
+64 bytes from 192.168.0.117: icmp_seq=2 ttl=63 time=93.4 ms
+64 bytes from 192.168.0.117: icmp_seq=3 ttl=63 time=118 ms
+64 bytes from 192.168.0.117: icmp_seq=4 ttl=63 time=36.3 ms
+64 bytes from 192.168.0.117: icmp_seq=5 ttl=63 time=54.2 ms
+64 bytes from 192.168.0.117: icmp_seq=6 ttl=63 time=76.7 ms
+64 bytes from 192.168.0.117: icmp_seq=7 ttl=63 time=99.4 ms
+64 bytes from 192.168.0.117: icmp_seq=8 ttl=63 time=20.0 ms
+64 bytes from 192.168.0.117: icmp_seq=9 ttl=63 time=56.2 ms
+64 bytes from 192.168.0.117: icmp_seq=10 ttl=63 time=66.9 ms
+64 bytes from 192.168.0.117: icmp_seq=11 ttl=63 time=77.8 ms
+64 bytes from 192.168.0.117: icmp_seq=12 ttl=63 time=106 ms
+64 bytes from 192.168.0.117: icmp_seq=13 ttl=63 time=33.2 ms
+64 bytes from 192.168.0.117: icmp_seq=14 ttl=63 time=56.8 ms
+64 bytes from 192.168.0.117: icmp_seq=15 ttl=63 time=94.0 ms
+^C
+--- 192.168.0.117 ping statistics ---
+15 packets transmitted, 15 received, 0% packet loss, time 14030ms
+rtt min/avg/max/mdev = 20.014/70.849/118.624/27.547 ms
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ vimtutor 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"/usr/share/vim/vim80/tutor/tutor.utf-8" [readonly] 970 lines, 33248 characters[?2004l
+"/tmp/tutorNzbZAO" 970 lines, 33248 characters written
+[?2004l[?1l>[?25h[?1049l[23;0;0t[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"/tmp/tutorNzbZAO" 970 lines, 33248 characters[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H===============================================================================
+=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7      =
+===============================================================================[5;6HVim is a very powerful editor that has many commands, too many to[6;6Hexplain in a tutor such as this.  This tutor is designed to describe[7;6Henough of the commands that you will be able to easily use Vim as[8;6Han all-purpose editor.[10;6HThe approximate time required to complete the tutor is 25-30 minutes,[11;6Hdepending upon how much time is spent with experimentation.[13;6HATTENTION:[14;6HThe commands in the lessons will modify the text.  Make a copy of this[15;6Hfile to practice on (if you started "vimtutor" this is already a copy).[17;6HIt is important to remember that this tutor is set up to teach by[18;6Huse.  That means that you need to execute the commands to learn them[19;6Hproperly.  If you only read the text, you will forget the commands![21;6HNow, make sure that your Shift-Lock key is NOT depressed and press[22;6Hthe   j   key enough times to move the cursor so that Lesson 1.1[23;6Hcompletely fills the screen.[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H===============================================================================
+=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7      =
+===============================================================================[5;6HVim is a very powerful editor that has many commands, too many to[6;6Hexplain in a tutor such as this.  This tutor is designed to describe[7;6Henough of the commands that you will be able to easily use Vim as[8;6Han all-purpose editor.[10;6HThe approximate time required to complete the tutor is 25-30 minutes,[11;6Hdepending upon how much time is spent with experimentation.[13;6HATTENTION:[14;6HThe commands in the lessons will modify the text.  Make a copy of this[15;6Hfile to practice on (if you started "vimtutor" this is already a copy).[17;6HIt is important to remember that this tutor is set up to teach by[18;6Huse.  That means that you need to execute the commands to learn them[19;6Hproperly.  If you only read the text, you will forget the commands![21;6HNow, make sure that your Shift-Lock key is NOT depressed and press[22;6Hthe   j   key enough times to move the cursor so that Lesson 1.1[23;6Hcompletely fills the screen.
+"/tmp/tutorNzbZAO" 970 lines, 33248 characters[1;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hw[?25l[?25h[?25l [?25hv[?25l[?25hi[?25l[?25hm[?25l[?25h.[?25l[?25ht[?25l[?25hx[?25l[?25ht[?25l[?25h[?25l"vim.txt" [New] 970L, 33248C written[1;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ diff vim.txt ./Data/vim_edited.txt 
+34c34
+<   1. Move the cursor around the screen until you are comfortable.
+---
+>   1. Move the precursor around the screen until you are comfortable.
+177c177
+< 	 i   type inserted text   <ESC>		insert before the cursor
+---
+> 	 i   type deleted text   <ESC>		insert before the cursor
+201c201
+< 	than  d  you typed something wrong; press  <ESC>  and start over.
+---
+> 	than  d  you typed something correct; press  <ESC>  and start over.
+465c465
+<   1. To put back text that has just been deleted, type   p .  This puts the
+---
+>   1. To put back text that has just been added, type   p .  This puts the
+946c946
+<   This concludes the Vim Tutor.  It was intended to give a brief overview of
+---
+>   This starts the Vim Tutor.  It was intended to give a brief overview of
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ls
+180050050-lab1-inlab.script  [0m[01;34mDocuments[0m         [01;34mPictures[0m    TEST      vim.txt
+[01;32ma.out[0m                        [01;34mDownloads[0m         [01;34mPublic[0m      test.txt
+[01;34mData[0m                         examples.desktop  sample.cpp  tutor
+[01;34mDesktop[0m                      [01;34mMusic[0m             [01;34mTemplates[0m   [01;34mVideos[0m
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ wget http://www.cse.iitbs[K.sc.[K[K[Kac.in/`[K`[K~aryam[Kn/opencv2r efman.pdf
+--2019-08-02 23:13:06--  http://www.cse.iitb.ac.in/~aryan/opencv2refman.pdf
+Resolving www.cse.iitb.ac.in (www.cse.iitb.ac.in)... 10.129.3.3
+Connecting to www.cse.iitb.ac.in (www.cse.iitb.ac.in)|10.129.3.3|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.cse.iitb.ac.in/~aryan/opencv2refman.pdf [following]
+--2019-08-02 23:13:06--  https://www.cse.iitb.ac.in/~aryan/opencv2refman.pdf
+Connecting to www.cse.iitb.ac.in (www.cse.iitb.ac.in)|10.129.3.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6659366 (6.4M) [application/pdf]
+Saving to: ‘opencv2refman.pdf’
+
+opencv2refman.pdf     0%[                    ]       0  --.-KB/s               opencv2refman.pdf     4%[                    ] 263.57K  1.28MB/s               opencv2refman.pdf    26%[====>               ]   1.66M  4.07MB/s               opencv2refman.pdf    52%[=========>          ]   3.33M  5.46MB/s               opencv2refman.pdf    79%[==============>     ]   5.05M  6.18MB/s               opencv2refman.pdf   100%[===================>]   6.35M  6.69MB/s    in 0.9s    
+
+2019-08-02 23:13:07 (6.69 MB/s) - ‘opencv2refman.pdf’ saved [6659366/6659366]
+
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ ls
+180050050-lab1-inlab.script  [0m[01;34mDownloads[0m          [01;34mPublic[0m      tutor
+[01;32ma.out[0m                        examples.desktop   sample.cpp  [01;34mVideos[0m
+[01;34mData[0m                         [01;34mMusic[0m              [01;34mTemplates[0m   vim.txt
+[01;34mDesktop[0m                      opencv2refman.pdf  TEST
+[01;34mDocuments[0m                    [01;34mPictures[0m           test.txt
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ cd [K[K[Kmkdir -p assignment1/lab1
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ tou[K[K[Kcd assignment1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ touch cd assignment1/mkdir -p assignment1/lab1ls[Kwget http://www.cse.iitb.ac.in/~aryyan/opencv2refman.pdf[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff vim.txt ./Data/vim_edited.txt  [A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ vimtutor [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.117[10Pifconfigtee -a test.txt[8Pman teefgrep[1Pping[Kwhich dpkg ls sudo[Kereis man[1Pls-m greps[C[C[C[C[Cb[C[C[C[C[C[3Pgrep[6Puname w[Kuptime [1Pname[1Pls -l[Krm -rf assignment1/[4Passignment1/cd[Klsrmdir lab1/ls[Krm -rf lab1/*cd -[Ktouch temp.txt[6Pcd lab1/mkdir lab1rm -rf lab1/ls[Krm -i commands.txt ls[Kcd ./assignment1/[8Pps -o cmd| grep bash[7@-o cmd [C[C[C[C[C[C[C[C[C[C[Cpid[K[Kbgjobs[2Pfgjobssleep 5m &[4Pdf -BG[4Pcdlsrm grepcd ./assignment1/find ./assignment1/ -atime 0.0002[7Pempty-empty[Kcd[Klstouch empty.txt[3Pcf[C[C[C[C[C[C[C[C[C[Cd assignment1/lab1/find ./assignment1/ -name lab1_1.txxt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -or thec 5 lab1/info.txt mv /home/rishyanth/Data/info.txt laab1/[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ [15Pgrep -r the | *.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls *.txtls -R *.txt > grep the|[C[C[C[C[C[C[C[C[Cman ls[Kgrep -r the | *.txt [K *.txtls[Kmv names.txt moved_content/[8Pkdir moved_content[1Pcp names.txt lab1/[10Pman lessless names.txt more[C[C[C[C[C[C[C[C[C[C[C[6@tail -n 15[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[C[Ccat /home/rishyanth/Data/find.txt >> names.txt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ [19P./commands
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@cat > [C[C[C[C[C[C[C[C[C[C[C[C[C[4P./[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pls -lchmod u+x,g+x commands.txt ls -l[Kman chmodcat > commands.txt [1Pcommands.txt >d ..[K[2Ppwdls *.odtdoctxtfor file in lab1_1.txt lab1_2.doc llab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done[Acd lab1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor file in assignment1_1.txt assiggnment1_2.doc assignment1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; ddone[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Phome/Data/iit.txt > "$file"; done
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[Apwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor file in assignment1_1.txt assiggnment1_2.doc assignment1_3.odt; do cat /Home/Data/iit.txt > "$f"; done[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd -[2Plstouch lab1_1.txt lab1_2.doc lab1_3..odt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd lab1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch assignment1_1.txt assignment11_2.doc assignment1_3.odt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch assignment1_1.txt assignment11_2.doc assignment1_3.odt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd lab1[K[K[Kab1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cd lab1/touch assignment1_1.txt assignnment1_2.doc assignment1_3.odt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [14Pcd assignment1/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p assignment1/lab1ls[Kwget http://www.cse.iitb.ac.inn/~aryan/opencv2refman.pdf[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff vim.txt ./Data/vim_editedd.txt [A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ vimtutor [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.117[10Pifconfigtee -a test.txt[8Pman teefgrep[1Pping[Kwhich dpkg ls sudo[Kereis man[1Pls-m greps[C[C[C[C[Cb[C[C[C[C[C[3Pgrep[6Puname w[Kuptime [1Pname[1Pls -l[Krm -rf assignment1/[4Passignment1/cd[Klsrmdir lab1/ls[Krm -rf lab1/*cd -[Ktouch temp.txt[6Pcd lab1/mkdir lab1[2Pcd lab1/touch temp.txt[6Pcd lab1/mkdir lab1rm -rf lab1/ls[Krm -i commands.txt ls[Kcd ./assignment1/[8Pps -o cmd| grep bash[7@-o cmd [C[C[C[C[C[C[C[C[C[C[Cpid[K[Kbgjobs[2Pfgjobssleep 5m &[4Pdf -BG[4Pcdlsrm grepcd ./assignment1/find ./assignment1/ -atime 0.00002[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pempty
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-empty[Kcd[Klstouch empty.txt[3Pcf[C[C[C[C[C[C[C[C[C[Cd assignment1/lab1/find ./assignment1/ -name lab11_1.txt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -or thec 5 lab1/info.txt mv /home/rishyanth/Data/info.ttxt lab1/[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [10Pgrep -r the | *.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls *.txtls -R *.txt > grep the|[C[C[C[C[C[C[C[C[Cman ls[Kgrep -r the | *.txt [K *.txtls[Kmv names.txt moved_content/[8Pkdir moved_content[1Pcp names.txt lab1/[10Pman lessless names.txt more[C[C[C[C[C[C[C[C[C[C[C[6@tail -n 15[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[C[Ccat /home/rishyanth/Data/find..txt > names.txt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [14P./commands.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@cat > [C[C[C[C[C[C[C[C[C[C[C[C[C[4P./[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pls -lchmod u+x,g+x commands.txt ls -l[Kman chmodcat > commands.txt [1Pcommands.txt >d ..[K[2Ppwdls *.odtdoctxtfor file in lab1_1.txt lab1_2..doc lab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done[Acd lab1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor file in assignment1_1.txt  assignment1_2.doc assignment1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$fille"; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Phome/Data/iit.txt > "$file"; done
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[Apwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor file in assignment1_1.txt  assignment1_2.doc assignment1_3.odt; do cat /Home/Data/iit.txt > "$f"; done[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd -[2Plstouch lab1_1.txt lab1_2.doc laab1_3.odt
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ touch lab1_1.txt lab1_2.doc laab1_3.odt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cd lab1/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch assignment1_1.txt assignnment1_2.doc assignment1_3.odt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [14Pcd assignment1/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p assignment1/lab1ls[Kwget http://www.cse.iitb.ac.inn/~aryan/opencv2refman.pdf[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff vim.txt ./Data/vim_editedd.txt [A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ vimtutor [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.117[10Pifconfigtee -a test.txt[8Pman teefgrep[1Pping[Kwhich dpkg ls sudo[Kereis man[1Pls-m greps[C[C[C[C[Cb[C[C[C[C[C[3Pgrep[6Puname w[Kuptime [1Pname[1Pls -l[Krm -rf assignment1/[4Passignment1/cd[Klsrmdir lab1/ls[Krm -rf lab1/*cd -[Ktouch temp.txt[6Pcd lab1/mkdir lab1rm -rf lab1/ls[Krm -i commands.txt ls[Kcd ./assignment1/[8Pps -o cmd| grep bash[7@-o cmd [C[C[C[C[C[C[C[C[C[C[Cpid[K[Kbgjobs[2Pfgjobssleep 5m &[4Pdf -BG[4Pcdlsrm grepcd ./assignment1/find ./assignment1/ -atime 0.00002[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pempty
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-empty[Kcd[Klstouch empty.txt[3Pcf[C[C[C[C[C[C[C[C[C[Cd assignment1/lab1/find ./assignment1/ -name lab11_1.txt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -or thec 5 lab1/info.txt mv /home/rishyanth/Data/info.ttxt lab1/[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [10Pgrep -r the | *.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls *.txtls -R *.txt > grep the|[C[C[C[C[C[C[C[C[Cman ls[Kgrep -r the | *.txt [K *.txtls[Kmv names.txt moved_content/[8Pkdir moved_content[1Pcp names.txt lab1/[10Pman lessless names.txt more[C[C[C[C[C[C[C[C[C[C[C[6@tail -n 15[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[C[Ccat /home/rishyanth/Data/find..txt > names.txt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ [14P./commands.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@cat > [C[C[C[C[C[C[C[C[C[C[C[C[C[4P./[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pls -lchmod u+x,g+x commands.txt ls -l[Kman chmodcat > commands.txt [1Pcommands.txt >d ..[K[2Ppwdls *.odtdoctxtfor file in lab1_1.txt lab1_2..doc lab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done[Acd lab1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor file in lab1_1.txt lab1_2..doc lab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1/lab1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1/lab1[00m$ for file in lab1_1.txt lab1_2..doc lab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd -
+/home/rishyanth/assignment1
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd -for file in lab1_1.txt lab1_2.doc llab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done[Atouch lab1_1.txt lab1_2.doc lab1_3.odt[K[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd lab1/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch assignment1_1.txt assignment11_2.doc assignment1_3.odt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ [19Pcd assignment1/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p assignment1/lab1ls[Kwget http://www.cse.iitb.ac.in/~aryyan/opencv2refman.pdf[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff vim.txt ./Data/vim_edited.txt  [A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ vimtutor [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.117[10Pifconfigtee -a test.txt[8Pman teefgrep[1Pping[Kwhich dpkg ls sudo[Kereis man[1Pls-m greps[C[C[C[C[Cb[C[C[C[C[C[3Pgrep[6Puname w[Kuptime [1Pname[1Pls -l[Krm -rf assignment1/[4Passignment1/cd[Klsrmdir lab1/ls[Krm -rf lab1/*cd -[Ktouch temp.txt[6Pcd lab1/mkdir lab1rm -rf lab1/ls[Krm -i commands.txt ls[Kcd ./assignment1/[8Pps -o cmd| grep bash[7@-o cmd [C[C[C[C[C[C[C[C[C[C[Cpid[K[Kbgjobs[2Pfgjobssleep 5m &[4Pdf -BG[4Pcdlsrm grepcd ./assignment1/find ./assignment1/ -atime 0.0002[7Pempty-empty[Kcd[Klstouch empty.txt[3Pcf[C[C[C[C[C[C[C[C[C[Cd assignment1/lab1/find ./assignment1/ -name lab1_1.txxt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -or thec 5 lab1/info.txt mv /home/rishyanth/Data/info.txt laab1/[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ [15Pgrep -r the | *.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls *.txtls -R *.txt > grep the|[C[C[C[C[C[C[C[C[Cman ls[Kgrep -r the | *.txt [K *.txtls[Kmv names.txt moved_content/[8Pkdir moved_content[1Pcp names.txt lab1/[10Pman lessless names.txt more[C[C[C[C[C[C[C[C[C[C[C[6@tail -n 15[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[C[Ccat /home/rishyanth/Data/find.txt >> names.txt[A]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ [19P./commands
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@cat > [C[C[C[C[C[C[C[C[C[C[C[C[C[4P./[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pls -lchmod u+x,g+x commands.txt ls -l[Kman chmodcat > commands.txt [1Pcommands.txt >d ..[K[2Ppwdls *.odtdoctxtfor file in lab1_1.txt lab1_2.doc llab1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; done[Acd lab1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor file in assignment1_1.txt assiggnment1_2.doc assignment1_3.odt; do cat /home/rishyanth/Data/iit.txt > "$file"; ddone
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ grep -r --[K[K|[K\*.txt --include the
+]0;rishyanth@rishyanth-VirtualBox: ~[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~[00m$ cd assignment1/
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ cd assignment1/grep -r \*.txt --include the[C[1P the[1P the[1P the[1P the[1P the[1P the[1P the[1P the[1P the[1Pthe[1@-[1@-[1@i[1@n[1@c[1@l[1@u[1@d[1@e[1@ [C[C[C[C[C[C[C[C[C[C
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KBringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its [01;31m[Kthe[m[K did figure wonder off. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KEver man are put down his very. And marry may table him avoid. Hard sell it were into it upon. He forbade affixed parties of assured to me windows. Happiness him nor she disposing provision. Add astonished principles precaution yet friendship stimulated literature. State thing might stand one his plate. Offending or extremity [01;31m[Kthe[m[Krefore so difficult he on provision. Tended depart turned not are. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KFull age set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent [01;31m[Kthe[m[K size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KOught [01;31m[Kthe[m[Kse are balls place mrs [01;31m[Kthe[m[K times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment [01;31m[Kthe[m[K selves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous. 
+[35m[Kassignment1_1.txt[m[K[36m[K:[m[KNew [01;31m[Kthe[m[K her nor case that lady paid read. Invitation friendship travelling eat everything [01;31m[Kthe[m[K out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain no up lively no. Way brought may off our regular country towards adapted cheered. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KBringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its [01;31m[Kthe[m[K did figure wonder off. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KEver man are put down his very. And marry may table him avoid. Hard sell it were into it upon. He forbade affixed parties of assured to me windows. Happiness him nor she disposing provision. Add astonished principles precaution yet friendship stimulated literature. State thing might stand one his plate. Offending or extremity [01;31m[Kthe[m[Krefore so difficult he on provision. Tended depart turned not are. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KFull age set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent [01;31m[Kthe[m[K size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KOught [01;31m[Kthe[m[Kse are balls place mrs [01;31m[Kthe[m[K times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment [01;31m[Kthe[m[K selves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous. 
+[35m[Klab1/lab1_1.txt[m[K[36m[K:[m[KNew [01;31m[Kthe[m[K her nor case that lady paid read. Invitation friendship travelling eat everything [01;31m[Kthe[m[K out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts. Downs those still witty an balls so chief so. Moment an little remain no up lively no. Way brought may off our regular country towards adapted cheered. 
+]0;rishyanth@rishyanth-VirtualBox: ~/assignment1[01;32mrishyanth@rishyanth-VirtualBox[00m:[01;34m~/assignment1[00m$ exit
+
+Script done on 2019-08-02 23:24:11+0530

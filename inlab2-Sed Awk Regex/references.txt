@@ -1,0 +1,5 @@
+#q1 : www.google.co.in/amp/s/www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/amp/
+SAMPLE COMMAND 5 HAS SIMILAR CODE AND WAS USED AS A REFERENCE
+#q2 : www.thegeekstuff.com/2010/01/8-powerful-awk-built-in-variables-fs-ofs-rs-ors-nr-nf-filename-fnr/
+SAMPLE EXAMPLE 3 HAS SIMILAR CODE AND WAS USED AS A REFERENCE
+#q4 : 
